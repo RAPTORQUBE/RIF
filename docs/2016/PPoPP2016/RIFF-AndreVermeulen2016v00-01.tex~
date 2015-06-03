@@ -56,8 +56,8 @@
 \titlebanner{banner above paper title}        % These are ignored unless
 \preprintfooter{short description of paper}   % 'preprint' option specified.
 
-\title{Title Text}
-\subtitle{Subtitle Text, if any}
+\title{Rapid Information Factory}
+\subtitle{Applying Lean Six Sigma to Parallel Processsing}
 
 \authorinfo{Name1}
            {Affiliation1}
@@ -77,7 +77,7 @@ This is the text of the abstract.
 % general terms are not compulsory anymore, 
 % you may leave them out
 \terms
-term1, term2
+Parallel applications and frameworks
 
 \keywords
 keyword1, keyword2
