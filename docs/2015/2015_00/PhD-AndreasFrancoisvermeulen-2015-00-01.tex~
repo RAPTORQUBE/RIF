@@ -1,0 +1,86 @@
+\documentclass{acm_proc_article-sp}
+
+\begin{document}
+
+\title{Parallel Patterns using Heterogeneous Computing}
+\subtitle{}
+\numberofauthors{3} 
+\author{
+\alignauthor
+Mr Andreas Vermeulen\\
+\affaddr -\\
+\affaddr University of St Andrews\\
+\affaddr Saint Andrews\\
+\affaddr Fife KY16 9AJ\\
+\affaddr -\\
+\affaddr University of Dundee\\
+\affaddr Nethergate\\
+\affaddr Dundee DD1 4HN\\
+\affaddr -\\
+\email{{\small a.f.vermeulen@dundee.ac.uk}}
+\alignauthor
+Dr Vladimir Janjic\\
+\affaddr -\\
+\affaddr University of St Andrews\\
+\affaddr Saint Andrews\\
+\affaddr Fife KY16 9AJ\\
+\affaddr -\\
+\email{{\small vj32@st-andrews.ac.uk}}
+\alignauthor
+Mr Andy Cobley\\
+\affaddr -\\
+\affaddr University of Dundee\\
+\affaddr Nethergate\\
+\affaddr Dundee DD1 4HN\\
+\affaddr -\\
+\email{{\small acobley@computing.dundee.ac.uk}}
+}
+\date{5 Appril 2015}
+\maketitle
+\begin{abstract}
+First report on the joint research at St Andrews and Dundee to formulate an enhanced version of the Research Information Factory using Heterogeneous Computing and Parallel Patterns from a data lake.
+\end{abstract}
+
+\category{H.4}{Information Systems Applications}{Miscellaneous}
+
+\terms{Theory, Framework, Application, Research}
+
+\keywords{research, research information factory, RIF, RIFF, RIFC ,heterogeneous computing, parallel patterns, data lake, cassandra, spark}
+
+\section{Introduction}
+The landscape for processing data from raw research data into actionable research knowledge is exceeding the limits of previously accepted processing methodologies and processing capacity of new computer equipment creating new opportunities for procesing data quickly and cost efficiently. Larger and faster central processing units are nolonger the answer to the quest for processing throughput, the future is heterogeneous systems and design patterns to utilise these systems.
+The joint research between St Andrews and Dundee investigates the area of parallel patterns using heterogeneous systems that officiallly started March 2015. The fundamental research will curently cover three stages:
+Fundamental research on heterogeneous systems, fundamental research on parallel patterns for data processing analysis and a practical implementation into an enhanced version of the Research Information Factory. 
+\section{Research Information Factory}
+The Research Information Factory (\textit{RIF}) is a bespoke processing appliance consisting of a framework and a cluster that supports the conversion of raw research data into knowledge using parallel patterns. 
+\subsection{Research Information Factory Framework}
+The Research Information Factory Framework (\textit{RIFF}) is a data processing framework that was designed during the period 2006 to 2011 and officially published as part of a MSc in Business Intelligence project (2012) and adapted during a Pg Cert in Data Science (2013) to support unstructured and structured data patterns.  
+The framework formulates a set of guidelines to process raw data into knowledge. 
+
+Framework uses a five layer process Research Layer (spesific research requirements), Utility Layer (common processing utilities), Audit, Balance and Control Layer (schedule jobs, collect audits, control patterns)
+Operational Management Layer (active processing controls) Functional Layer supports the core processing pattern of \textbf{R}etrieve-\textbf{A}ssess-\textbf{P}rocess-\textbf{T}ransform-\textbf{O}rganise-\textbf{R}eport (\textit{R-A-P-T-O-R}). The planned research will enhance the framework with the required parallel patterns to generate the rules from fundamental principals. A version 2.0 of the framework already exist and the new research will develop it into version 3.x.
+\subsection{Research Information Factory Cluster}
+The Research Information Factory Cluster (\textit{RIFC}) is a cluster assembly using commondity computer equipment that are used by the processing in the RIF to support the RIFF parallel patterns. A new custom parallel cluster will be designed and built as part of the results of the current research.
+\section{Heterogeneous Computing}
+Heterogeneous computing describes systems that are using more than one kind of processor. These are systems that gain performance by its ability to utilise dissimilar processors to perform a common processing requirement. The research we are conducting is looking at using central processing unit (\textit{CPU}), graphical processing unit (\textit{GPU}) and field-programmable gate array (\textit{FPGA}) processor to perform the required processing from the RIFF. This research is the fundamental discovery process of what parallel patterns requires what combination of Heterogeneous Computing.We have started with research on a system using CPU and GPU combinations to build the core building blocks in the form of cluster processing cells and related processing patterns.
+\subsection{Central Processing unit (\textit{CPU})}
+The central processing unit (CPU) is designed with few cores optimised for sequential serial processing. The CPU will perform patterns that require requires large amounts of control changes.
+\subsection{Graphical Processing Unit (\textit{GPU})}
+The graphical processing unit (GPU) is designed as a massively parallel architecture of thousands of smaller, efficient cores designed for handling multiple tasks simultaneously.
+\subsection{Field-Programmable Gate Array (\textit{FPGA})}
+The field-programmable gate array (FPGA) is designed to use hardware description language (HDL) to dynamically setup the logic flow processing patterns. This is the future of data processing, our research will investigate if the use of FPGA components it is possible to modify the parallel patterns to use the FPGA in optimum manner.  
+\section{Parallel Patterns}
+Parallel patterns is the fundimental building blocks of any data processing requirement. The research we are conducting is looking at how the heterogeneous computing changes the design and implimentation of common parallel patterns like task parallelism, pipelines, recursive splitting and geometric decomposition of data processing. We are researching common strategies like actors, shared queue, fork/join, loop parallelism and master/worker processing. The introduction of heterogeneous computing into the pattern opens options to apply thousands of processing units to the single pattern of data processing. We are currently looking libraries like CUDA, OpenCL, FastFlow and ZeroMQ. Our research is planning to find the most efficient pattern for each process in the RIFF.
+\section{Efficiency of Processing}
+The increasing drive for more processing power has resulted in a massive demand for more energy to perform tasks. Our research is targetting efficiency in terms of processing time, programming effort, cost in engergy usage for each design pattern. We want to develop patterns that run at the highest efficiency for lowest effort and energy use. We will calculate the theoretical processing capacity of a specific cluster combination and then measure the processing capacity against our pre-defined data sets and derive a efficiency ratio for the cluster cell. Results of each parallel pattern will be reported as performance per watt to indicate efficiency of processing.
+\section{Data lake}
+A massive, easily accessible data repository consisting of commodity computer hardware for storing "big data" The requirement for data sources to be of a size larger than what a single system can handle requires that the parallel patterns and the heterogeneous computing clusters can assess big data sources with efficiency. Our research is looking at the data lake concept where all data is stored in a shared data source and efficiency of design patterns ensures the RIF has the correct data to the correct processing cells. We will also look at patterns that offload processing of the data into the data lake.
+\subsection{Cassandra Data Processing Engine}
+Cassandra database is used for scalability and high availability data processing. Linear scalability and fault-tolerance on commodity hardware makes it a perfect match for our research requirements. We need massively scalability to hold enough data for the cluster to support the processing rate required for the parallel patterns. The RIFC will currently support three node cluster for the data lake.
+\subsection{Spark Processing Engine}
+Spark is a fast and general engine for large-scale data processing supporting advanced Directed Acyclic Graph (\textit{DAG}) execution engine that supports cyclic data flow and in-memory computing. This matches the parallel patterns requirements for the research process. The RIFC will currently support three node cluster for handling spark based design patterns. 
+\section{Research Methodology}
+The research we are conducting will start with determining the fundamental behavior of a selection of heterogeneous computing components forming a cluster cell i.e 4/8 core CPU with 172/384/768 core GPU. The behavior is evaluated on a basis of a fixed size data set processed via a spesific parallel pattern changing parameters like combinations of CPU, GPU with different clock speeds, memory allocations and measuring time to complete task, energy requirements and effort in amount of code required for each parallel pattern and heterogeneous computing combination. 
+\section{Conclusion}
+The research is in its early stages and we are currently stabilising our research experiment parameters and determining our scope of research. Once we have a stable experiment setup we will report back details on our findings and our progress.
+\end{document}

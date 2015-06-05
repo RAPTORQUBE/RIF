@@ -1,0 +1,171 @@
+\documentclass{acm_proc_article-sp}
+\usepackage{graphicx}
+\graphicspath{ {Image/} }
+\DeclareGraphicsExtensions{.png}
+\begin{document}
+\title{Parallel Patterns using Heterogeneous Computing}
+\subtitle{}
+\numberofauthors{3} 
+\author{
+\alignauthor
+Mr Andreas Vermeulen\\
+\affaddr -\\
+\affaddr {\small University of St Andrews}\\
+\affaddr {\small Saint Andrews, Fife KY16 9AJ}\\
+\affaddr -\\
+\affaddr {\small University of Dundee}\\
+\affaddr {\small Nethergate,Dundee DD1 4HN}\\
+\affaddr -\\
+\email{{\small a.f.vermeulen@dundee.ac.uk}}
+\alignauthor
+Dr Vladimir Janjic\\\affaddr -\\
+\affaddr {\small University of St Andrews}\\
+\affaddr {\small Saint Andrews, Fife KY16 9AJ}\\
+\affaddr -\\
+\email{{\small vj32@st-andrews.ac.uk}}
+\alignauthor
+Mr Andy Cobley\\
+\affaddr -\\
+\affaddr {\small University of Dundee}\\
+\affaddr {\small Nethergate, Dundee DD1 4HN}\\
+\affaddr -\\
+\email{{\small acobley@computing.dundee.ac.uk}}
+}
+\date{5 April 2015}
+\maketitle
+\begin{abstract}
+\textit{Joint research project between University of St Andrews and University of Dundee for an enhancement of a Research Information Factory using heterogeneous computing and parallel knowledge-extraction patterns.}
+\end{abstract}
+\category{H.4}{Information Systems Applications}{Miscellaneous}
+\terms{Theory, Framework, Application, Research, Hardware}
+\keywords{{\small \textit{knowledge-extraction, patterns, information factory, RIF, RIFF, RIFC, heterogeneous computing, parallel patterns, cassandra, spark, opencl, fastflow, cuda, 3D torus network}}}
+\section{Introduction}
+The demand for processing data into knowledge is exponentially increasing as new raw data sources appear and the volume of data they generate increases daily. The conversion of data into actionable knowledge is important for the future of modern society. 
+Every aspect of our lives ranging from health care to shopping are now impacted by our ability to process more data per person per day. 
+The increase of volume, variety, velocity and veracity is a major challenge to data scientists. \cite{khokhar1993heterogeneous}
+\begin{itemize}
+  \item The volume can not process on a single storage system and now spread over multiple systems. 
+  \item The variety causes complexity in processing to consolidate more data on same real world object. 
+  \item The speed or velocity of data creation is demanding more processing every second of the day. 
+  \item The veracity of the data requires that extra quality checks on data to improve the knowledge.
+\end{itemize}
+The trend over the last years is to build bigger and bigger data centers with massive energy requirements. This trend can not be sustained worldwide. Energy costs money and consumes natural resources that is becoming more undesirable.
+
+\textbf{\textit{"Research goal is to develop effective processing patterns with less overall energy cost."}}
+\section{Background}
+The research into heterogeneous computing using parallel patterns.
+\subsection{Heterogeneous Computing}
+Heterogeneous computing systems \cite{khokhar1993heterogeneous} uses more than one type of processors. Systems gain performance enhancements by the ability to utilise dissimilar processors to execute common processing requirements. Using central processing unit (\textit{CPU}), graphical processing unit (\textit{GPU}) and field programmable gate array (\textit{FPGA}) processor that enable effective processing at low energy requirements.
+The central processing unit (\textit{CPU}) is designed with few cores optimised for sequential serial processing patterns that requires large amounts of control changes. The graphical processing unit (\textit{GPU}) is designed as a massively parallel architecture of thousands of smaller, efficient cores handling multiple tasks simultaneously. The custom Application-Specific Integrated Circuit (\textit{ASIC}) solution is capable of performing fixed spesific tasks like network connectivity, mapping information. Field Programmable Gate Array (\textit{FPGA}) is a set of programmable logic blocks and programmable interconnects allow the same FPGA \cite{shagrithaya2012enabling} to be used in many different applications. Heterogeneous uses them together as one processing unit.
+\subsection{Parallel Patterns}
+Patterns are the fundimental programming building blocks of data processing requirements. Heterogeneous computing changes the design and implimentation of common parallel patterns (task parallelism, pipelines, recursive splitting and geometric decomposition of data processing). We require new knowledge-extraction patterns using common strategies (actors, shared queue, fork/join, loop parallelism and master/worker) with libraries (CUDA \cite{cudawebsite}, OpenCL \cite{khronoswebsite,khronos18opencl,shagrithaya2012enabling,stone2010opencl}, FastFlow \cite{aldinucci2011fastflow} and ZeroMQ \cite{hintjens2011omq}).
+\subsection{Efficiency and Energy-awareness}
+The increasing drive for processing power demand increase energy levels to perform tasks. Our research targets efficiency in terms of processing time, programming effort, energy-awareness for each design pattern. Research calculates efficiency of processing \cite{wu2014heterogeneous} in Floating-point Operations Per Second per Watt (\textit{FLOP/S/W}). 
+\subsection{Research Information Factory}
+The Research Information Factory (\textit{RIF}) is a processing appliance consisting of a framework and a cluster that supports the conversion of raw research data into knowledge using parallel patterns. 
+\subsubsection{RIF Framework}
+The Research Information Factory Framework (\textit{RIFF}) is a data processing framework designed 
+during the period 2006 to 2011 and officially published as part of a MSc in Business Intelligence project (2012) and adapted during a Pg Cert in Data Science (2013) \cite{ajima2009tofu} to support unstructured and structured data patterns.  
+The framework is a set of guidelines to process data into knowledge. 
+Framework uses a five layer process: Research Layer (specific research requirements), Utility Layer (common processing utilities), Audit, Balance and Control Layer (schedule jobs, collect audits, control patterns)
+Operational Management Layer (active processing controls) Functional Layer supports the core processing pattern of \textbf{R}etrieve-\textbf{A}ssess-\textbf{P}rocess-\textbf{T}ransform-\textbf{O}rganise-\textbf{R}eport (\textit{R-A-P-T-O-R}). 
+\begin{figure}
+  \centering
+  \includegraphics[width=4.5cm]{RIFF}
+  \caption{Research Information Factory Framework}
+\end{figure}
+\subsubsection{RIF Cluster}
+The Research Information Factory Cluster (\textit{RIFC}) is a 3D torus connected cluster appliance using commondity computer equipment to process the RIFF parallel patterns. This new custom parallel cluster appliance design \cite{ajima2009tofu}(Synaptic Assimilator) supports the RIFF. The cluster supports a Cassandra database \cite{cassandrawebsite} and a Spark Processing Engine [12] to handle the scalability and high availability data processing to match the parallel patterns requirements for data sources of a size larger than what a single system can handle.
+\section{Proposed Solution}
+The research will develop new parallel patterns for knowledge extraction, new mechanisms for storing and extracting data while using minimum amounts of energy.
+The research over next year covers three stages:
+\subsection{Heterogeneous systems.}
+The research will study the fundamental behavior of a selection of heterogeneous computing components as implimented in a nVidia Jetson TK1 development kit. \cite{jetsonwebsite}
+\subsection{Parallel patterns for data processing}
+The system is evaluated on a basis of a fixed size data set processed via a specific parallel pattern changing parameters like combinations of CPU, GPU with different clock speeds, memory allocations and measuring time to complete task, energy requirements and effort in amount of code required for each parallel pattern and heterogeneous computing combination. 
+\subsection{Research Information Factory Cluster}
+The Research Information Factory Cluster (\textit{RIFC}) is a 3D torus connected cluster appliance using commondity computer equipment, a Cassandra database \cite{cassandrawebsite,datastaxwebsite} and a Spark Engine \cite{datastaxwebsite,incubatorspark} to handle the scalability and high availability data processing from systems like nVidia Jetson TK1 \cite{jetsonwebsite} and Tilera TILE-Mx100 processor \cite{mattson2008programming}.
+\section{Conclusion}
+The research goal is to process with less energy. Heterogeneous systems with parallel patterns is currently the optimum option to achieve the goal. 
+\bibliographystyle{plain}
+{\small \begin{thebibliography}{10}
+
+\bibitem{ajima2009tofu}
+Yuichiro Ajima, Shinji Sumimoto, and Toshiyuki Shimizu.
+\newblock Tofu: A 6d mesh/torus interconnect for exascale computers.
+\newblock {\em Computer}, (11):36--40, 2009.
+
+\bibitem{aldinucci2011fastflow}
+Marco Aldinucci, Marco Danelutto, Peter Kilpatrick, and Massimo Torquati.
+\newblock Fastflow: high-level and efficient streaming on multi-core.(a
+  fastflow short tutorial).
+\newblock {\em Programming multi-core and many-core computing systems, parallel
+  and distributed computing}, 2011.
+
+\bibitem{cassandrawebsite}
+Cassandra.
+\newblock Apache cassandra.
+
+\bibitem{datastaxwebsite}
+Datastax.
+\newblock Getting started with apache spark and cassandra.
+
+\bibitem{khronos18opencl}
+Khronos OpenCL~Working Group et~al.
+\newblock The opencl specification, version 1.2, 15 november 2011.
+\newblock {\em Cited on pages}, 18(7):30.
+
+\bibitem{hintjens2011omq}
+Pieter Hintjens.
+\newblock {\O}mq-the guide.
+\newblock {\em Online: http://zguide. zeromq. org/page: all, Accessed on}, 23,
+  2011.
+
+\bibitem{incubatorspark}
+Apache Incubator.
+\newblock Spark: Lightning-fast cluster computing, 2013.
+
+\bibitem{khokhar1993heterogeneous}
+Ashfaq~A Khokhar, Viktor~K Prasanna, Muhammad~E Shaaban, and Cho-Li Wang.
+\newblock Heterogeneous computing: Challenges and opportunities.
+\newblock {\em Computer}, 26(6):18--27, 1993.
+
+\bibitem{khronoswebsite}
+Khronos.
+\newblock Opencl.
+
+\bibitem{mattson2008programming}
+Timothy~G Mattson, Rob Van~der Wijngaart, and Michael Frumkin.
+\newblock Programming the intel 80-core network-on-a-chip terascale processor.
+\newblock In {\em Proceedings of the 2008 ACM/IEEE conference on
+  Supercomputing}, page~38. IEEE Press, 2008.
+
+\bibitem{cudawebsite}
+nVidia.
+\newblock Cuda toolkit.
+
+\bibitem{jetsonwebsite}
+nVidia.
+\newblock The world's first embedded supercomputer.
+
+\bibitem{shagrithaya2012enabling}
+Kavya~Subraya Shagrithaya.
+\newblock Enabling development of opencl applications on fpga platforms.
+\newblock 2012.
+
+\bibitem{stone2010opencl}
+John~E Stone, David Gohara, and Guochun Shi.
+\newblock Opencl: A parallel programming standard for heterogeneous computing
+  systems.
+\newblock {\em Computing in science \& engineering}, 12(1-3):66--73, 2010.
+
+\bibitem{wu2014heterogeneous}
+Qiang Wu, Yajun Ha, Akash Kumar, Shaobo Luo, Ang Li, and Shihab Mohamed.
+\newblock A heterogeneous platform with gpu and fpga for power efficient high
+  performance computing.
+\newblock In {\em Integrated Circuits (ISIC), 2014 14th International Symposium
+  on}, pages 220--223. IEEE, 2014.
+
+\end{thebibliography}
+}
+\end{document}
