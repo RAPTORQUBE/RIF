@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <!-- Optimizely start -->
+<!-- should be placed right after <head> to avoid flickering issues -->
+<!-- This tag is async and thus won't block page load -->
+<script>
+  
+  (function() {
+    var projectId = '325238676';
+    var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+    var scriptTag = document.createElement('script');
+    scriptTag.type = 'text/javascript';
+    scriptTag.async = true;
+    scriptTag.src = protocol + 'cdn.optimizely.com/js/' + projectId + '.js';
+    var head = document.getElementsByTagName('head')[0];
+    head.appendChild(scriptTag, head);
+  })();
+
+  function optimizelyTimeout() {
+    window.optimizely = window.optimizely || [];
+    if (!window.optimizely.data) {
+      window.optimizely.push("timeout");
+    }
+  }
+
+  setTimeout(optimizelyTimeout, 500);
+
+</script>
+<!-- Optimizely end -->
+
+<!-- Google Tag Manager -->
+<!-- to be placed right after Optimizely tag (which itself is added right after <head>) -->
+<!-- This tag is async and thus won't block page load -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5P8J8X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5P8J8X');</script>
+<!-- End Google Tag Manager -->    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Elsevier Boilerplate">
+    <meta name="author" content="Name | Elsevier">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="//design.elsevier.com/dist/favicons/mstile-144x144.png">
+    
+						
+						<link rel="apple-touch-icon" sizes="57x57" href="https://cdn.elsevier.io/verona/includes/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://cdn.elsevier.io/verona/includes/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://cdn.elsevier.io/verona/includes/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://cdn.elsevier.io/verona/includes/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://cdn.elsevier.io/verona/includes/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://cdn.elsevier.io/verona/includes/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://cdn.elsevier.io/verona/includes/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://cdn.elsevier.io/verona/includes/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.elsevier.io/verona/includes/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="https://cdn.elsevier.io/verona/includes/favicons/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="https://cdn.elsevier.io/verona/includes/favicons/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="https://cdn.elsevier.io/verona/includes/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://cdn.elsevier.io/verona/includes/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="https://cdn.elsevier.io/verona/includes/favicons/favicon-32x32.png" sizes="32x32">						
+    <title>Author schemas</title>    
+						
+						<link rel="stylesheet" href="https://cdn.elsevier.io/verona/ui/1.2.6/mercutio.css">
+<link rel="stylesheet" href="http://www.elsevier.com/_designs/styles/elsevier-matrix.min.css"><!-- elsevier-matrix.min.css  -->						
+    
+						
+									<link rel="stylesheet" type="text/css" href="http://www.elsevier.com/_designs/styles/main_css.css" media="all" />
+											
+    <link href="" rel="canonical" />    
+						
+						
+    
+
+
+       
+     
+<!-- include via asset [#6965] scripts_top -->
+
+  <script src="https://cdn.elsevier.io/verona/ui/1.2.6/mercutio.js"></script>
+  <script>
+    jQuery(document).ready(function($) {
+        $(document)
+            .mercutio([ 'core/jquery-ui',
+                    'core/modernizr',
+                    'extentions/foundation/foundation',
+                    'extentions/foundation/foundation.offcanvas',
+                    'extentions/spine',
+                    'extentions/kubrickology',
+                    'extentions/lightbox',
+                    'extentions/accessibility'
+                ], function(){
+                    $(document)
+                        .kubrickology();
+                    $(document)
+                        .foundation('offcanvas', 'reflow');
+        });
+    });
+  </script>
+  <script src="http://www.elsevier.com/__data/assets/js_file/0015/4740/twittertypeaheadjquerymin.js"></script> <!-- twittertypeaheadjquerymin.js  -->
+  <script src="http://www.elsevier.com/__data/assets/js_file/0006/2589/global.js?v=0.1.105"></script> <!-- global.js -->
+
+  <script>
+/*
+ * accessibility
+ * Author: Bob van Luijt
+ */
+jQuery(document).ready(function($) {
+    if( $('.accessibility-link').length ){
+    	$('.accessibility-link').keypress(function(e) {
+    		if(e.which == 13) {
+	    		$(window).scrollTop( $('main').first('div').offset().top );
+    		}
+    	});
+    }
+    if( $('.right-off-canvas-toggle').length ){
+    	$('.right-off-canvas-toggle').click(function(e) {
+	    	setTimeout(function(){
+	    		if( $('.right-off-canvas-toggle').attr('aria-expanded')=='true' ){
+	    			$('.main-navigation').find('a').first().focus();
+    			}
+    		}, 500);
+    	});
+    }
+});
+</script>
+
+  <script>
+    //MOVE IE8 USERS
+    if(navigator.userAgent.match(/msie 8/i) ){
+       window.location="/browser-outdated";
+    }
+  </script>
+
+<!-- END include via asset [#6965] scripts_top -->
+
+
+<!--
+  Running Squiz Matrix
+  Developed by Squiz - http://www.squiz.net
+  Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
+  Page generated: 03 June 2015 22:44:13
+-->
+
+
+
+</head>
+<body class="">
+    <div class="accessibility-link" tabindex="1">
+        <a class="accessibility-link-skip" title="Skip to content">Skip to content</a>  
+    </div>
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="inner-wrap push-row-first">
+            <div class="header-fixed">
+                
+                
+						
+						<header role="banner" class="sticky">
+  <a class="elsevier-wordmark els_link-image" href="/" title="Homepage">
+    <img width="140" src="https://cdn.elsevier.io/verona/includes/svg/wordmark-elsevier.svg" alt="Elsevier Wordmark" />
+  </a>
+  <a href="#" class="right-off-canvas-toggle">
+    <span class="menu-toggle-icon">
+      <img src="https://cdn.elsevier.io/verona/includes/svg/icon-menu-hamburger.svg" alt="Menu" />
+    </span>
+    <span class="menu-toggle-text hide-for-small-only">Menu</span>
+  </a>
+
+  <div class="container-form-search"><form class="search" method="get" action="/search" role="search">
+  <input type="submit" value="🔍">
+  <input type="search" name="query" placeholder="SEARCH" />
+</form>  </div>
+</header>						
+            </div>
+
+            <main role="main">
+              
+                            
+                                  
+                  <section class="row row-breadrumbs show-breadcrumbs
+">
+                      <div class="columns large-12">
+                       <div class="breadcrumb-container">
+                        <ol id="breadcrumb" class="breadcrumb">
+                          
+                          
+                          
+                          
+                                                      <li>
+                              <a href="http://www.elsevier.com/authors">Authors</a>
+                            </li>
+                                                    
+                          <li>
+                            <a href="#">Author schemas</a>
+                          </li>
+                        </ol>
+                       </div>
+                       <div class="breadcrumb-mobile-push show-for-small-only"></div>
+                      </div>
+                  </section>
+              
+                
+              <!-- Secondary navigation -->
+                                                            <!-- Print parent asset secondary nav -->
+                                  
+              
+            </main>
+
+            <aside class="right-off-canvas-menu">
+               <div class="spine-section">
+
+                </div>
+                <div class="spine-section">    
+                    <nav class="main-navigation" role="navigation" aria-label="primary">
+
+                        
+                        							
+
+                        <!--  BEGIN LEVEL 1 -->
+                        
+                            <ul class="spine-level-1">
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/home2">Home</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/about">About</a>
+                                        							
+
+                                        <!--  BEGIN LEVEL 2 -->
+                                        <ul class="spine-level-2">
+                                                                                                  <li class="">
+                                                    <a href="http://www.elsevier.com/about/at-a-glance">At a glance</a>
+                                                  </li>
+                                                                                                  <li class="">
+                                                    <a href="http://www.elsevier.com/about/company-information">Company Information</a>
+                                                  </li>
+                                                                                                  <li class="">
+                                                    <a href="http://www.elsevier.com/about/press-releases">Press releases</a>
+                                                  </li>
+                                                                                                  <li class="">
+                                                    <a href="http://www.elsevier.com/about/media">Media</a>
+                                                  </li>
+                                                                                                  <li class="">
+                                                    <a href="http://www.elsevier.com/about/open-science">Open Science</a>
+                                                  </li>
+                                                                                                  <li class="">
+                                                    <a href="http://www.elsevier.com/about/connect">Connect</a>
+                                                  </li>
+                                                                                        </ul>
+                                        
+						
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/books-and-journals">Books and Journals</a>
+                                        							
+                                    </li>
+                                                                    <li class="child-active">
+                                        <a href="http://www.elsevier.com/authors">Authors</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/editors">Editors</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/reviewers">Reviewers</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/research-platforms">Research Platforms</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/research-intelligence">Research Intelligence Solutions</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/rd-solutions">R&amp;D Solutions</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/clinical-solutions">Clinical Solutions</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/education">Education Solutions</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/solutions">All Solutions</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/elsevier-store-ii">Elsevier Store</a>
+                                        							
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://www.elsevier.com/help-and-contact">Help &amp; Contact</a>
+                                        							
+                                    </li>
+                                                            </ul>
+                        
+						
+                    </nav>
+                </div>
+            </aside>
+         
+						
+						<footer class="footer-main">
+ <div class="row row-back-to-top">
+  <div class="columns large-12">
+    <a class="back-to-top right" href="Back to the top of the page">Back to top</a>
+   </div>
+ </div>
+ <div class="row">
+
+	    <div class="medium-8 large-9 columns">
+	    	<p>Copyright © 2015 Elsevier B.V.<br><a href="http://www.elsevier.com/advertisers">Advertising</a> - <a href="http://www.elsevier.com/about/company-information/careers">Careers</a> - <a href="http://www.elsevier.com/feedback">Feedback</a> -  <a href="/?a=89499">Sitemap</a> - <a href="http://www.elsevier.com/legal/elsevier-website-terms-and-conditions">Terms and Conditions</a> - <a href="http://www.elsevier.com/legal/privacy-policy">Privacy Policy</a> - <a href="http://www.elsevier.com/feedback">Suggestions on the site</a></p>
+			<p>Cookies are used by this site. To decline or learn more, visit our <a href="http://www.elsevier.com/legal/use-of-cookies">Cookies</a> page.</p>
+		</div><!-- END .large-9 .columns -->
+
+	    <div class="medium-4 large-3 columns footer-social">
+			
+			<div class="social-share">
+
+				<a target="_blank" class="svg-icon-social" href="https://www.facebook.com/ElsevierConnect">
+					<img src="https://cdn.elsevier.io/verona/includes/svg/icon-social-facebook.svg" alt="Icon social media facebook" />
+				</a>
+				<a target="_blank" class="svg-icon-social" href="https://www.linkedin.com/company/elsevier">
+					<img src="https://cdn.elsevier.io/verona/includes/svg/icon-social-linkedin.svg" alt="Icon social media linkedin" />
+				</a>
+				<a target="_blank" class="svg-icon-social" href="https://twitter.com/ElsevierConnect">
+					<img src="https://cdn.elsevier.io/verona/includes/svg/icon-social-twitter.svg" alt="Icon social media twitter" />
+				</a>
+				<a target="_blank" class="svg-icon-social" href="https://plus.google.com/u/0/+elsevier/posts">
+					<img src="https://cdn.elsevier.io/verona/includes/svg/icon-social-googleplus.svg" alt="Icon social media google plus" />
+				</a>
+			
+			</div><!-- END .social-share -->
+
+	    	<a class="logo-relx els_link-image" href="http://www.reedelsevier.com/" title="Go to RELX Group Homepage">
+	    		<img width="150" src="https://cdn.elsevier.io/verona/includes/svg/logo-relxgroup.svg" alt="RELX Group Wordmark" />
+	    	</a>
+
+		</div><!-- END large-3 columns -->
+
+	</div><!-- .row .collapse -->
+
+</footer>						
+        </div><!-- .inner-wrap -->
+    </div><!-- .off-canvas-wrap -->
+
+<script src="http://www.elsevier.com/__data/assets/js_file/0018/56430/elsevier-matrix-global.js"></script> <!-- elsevier-matrix-custom.js  -->
+
+
+
+
+</body>
+</html>

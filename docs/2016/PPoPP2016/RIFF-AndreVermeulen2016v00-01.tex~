@@ -1,25 +1,3 @@
-%-----------------------------------------------------------------------------
-%
-%               Template for sigplanconf LaTeX Class
-%
-% Name:         sigplanconf-template.tex
-%
-% Purpose:      A template for sigplanconf.cls, which is a LaTeX 2e class
-%               file for SIGPLAN conference proceedings.
-%
-% Guide:        Refer to "Author's Guide to the ACM SIGPLAN Class,"
-%               sigplanconf-guide.pdf
-%
-% Author:       Paul C. Anagnostopoulos
-%               Windfall Software
-%               978 371-2316
-%               paul@windfall.com
-%
-% Created:      15 February 2005
-%
-%-----------------------------------------------------------------------------
-
-
 \documentclass{sigplanconf}
 
 % The following \documentclass options may be useful:
@@ -39,7 +17,7 @@
 \setlength{\pdfpagewidth}{\paperwidth}
 
 \conferenceinfo{CONF 'yy}{Month d--d, 20yy, City, ST, Country} 
-\copyrightyear{20yy} 
+\copyrightyear{2016} 
 \copyrightdata{978-1-nnnn-nnnn-n/yy/mm} 
 \doi{nnnnnnn.nnnnnnn}
 
@@ -53,18 +31,18 @@
                                   % (paid open-access papers, 
                                   % short abstracts)
 
-\titlebanner{banner above paper title}        % These are ignored unless
+\titlebanner{Rapid Information Factory}        % These are ignored unless
 \preprintfooter{short description of paper}   % 'preprint' option specified.
 
 \title{Rapid Information Factory}
-\subtitle{Applying Lean Six Sigma to Parallel Processsing}
+\subtitle{Applying Lean Six Sigma to Parallel Processsing Framework}
 
-\authorinfo{Name1}
-           {Affiliation1}
-           {Email1}
-\authorinfo{Name2\and Name3}
-           {Affiliation2/3}
-           {Email2/3}
+\authorinfo{Andreas Francois Vermeulen}
+           {University of St Andrew and University of Dundee}
+           {afvermeulen@dundee.ac.uk}
+\authorinfo{Dr Vladimir Janjic \and Prof Janet Hughes}
+           {University of St Andrew \and University of Dundee}
+           {jhughes@computing.dundee.ac.uk \and vj32@st-andrews.ac.uk}
 
 \maketitle
 
@@ -77,196 +55,118 @@ This is the text of the abstract.
 % general terms are not compulsory anymore, 
 % you may leave them out
 \terms
-Parallel applications and frameworks
+Parallel applications and frameworks, lean six sigma
 
 \keywords
-keyword1, keyword2
+rapid information factory, rif, framework, lean six sigma, heterogeneous computing, parallel, beowulf, cluster, master-slave, pipe-line.
 
 \section{Introduction}
 
-The text of the paper begins here.
+The Rapid Information Factory is a data processing architecture that enables the enhanced processing of data by using a structured and highly optimised parallel processing framework.
 
-Lots of text.
+The core of the framework is a processing pipeline with feedback to enhance the processing of the the data into information.
 
-More text.
+Our research covers the structure of this processing framework and the use of a three node Beowulf cluster \cite{sonzogni2002parallel} that combines into the formation of the Rapid Information Factory.
 
-Lots of text.
+The improve the performance of the factory we apply same Lean Six Sigma \cite{george2005lean} rules that applies to normal manufacturing factories with proven success.
 
-More text.
+\section{Rapid Information Factory}
 
+The factory is a singular processing solution that processes all data into information using a XML based rules.
 
-Lots of text.
+The solution consists of an interaction between three dimensional frameworks:
 
-More text.
+\subsection{Customer Framework}
+This is the view the single view of the information to the customer. It is structured to show the information in the view the customer spesifies in the functional requirements. As for this research paper is not further expanded or discussed.
+\subsection{Project Framework} 
+The factory evolves over time as it is developed and then redeveloped to handle extra enhancements or new data sources. The project is driven by a agile project methodology consisting a backlog and a cycle of five day sprints covering a period of six months. As for the research this is not expanded or discussed.
 
-Lots of text.
+\subsection{Rapid Information Factory Framework}
+The framework consists of a five high-level layers:
 
-More text.
+\subsubsection{Business Layer}
 
+The Business Layer contains the Business spesific framework configurations that covers either functional requirements or non-functional requirements.
 
-Lots of text.
+The layer consists of two groupings:
+\begin{enumerate}
+  \item Functional
+  \item Non-functional
+\end{enumerate}
 
-More text.
+\subsubsection{Utility Layer}
+The Untility Layer consists of sets of utilities for the overall factory.
 
-Lots of text.
+The layer consists of two groupings of utilities:
+\begin{enumerate}
+  \item Maintance utilities
+  \item General utilities
+\end{enumerate}
 
-More text.
+\subsubsection{Audit, Balance and Control Layer}
 
-Lots of text.
+The Audit, Balance and Control Layer (ABC) is the layer that supports the factory while it is running.
+This layer handles any active processing allowcated to the Beowulf engine.
 
-More text.
+The layer consists of three groupings.
+\begin{enumerate}
+  \item Audit
+  \item Balance
+  \item Control
+\end{enumerate}
 
-Lots of text.
+\subsubsection{Operational Management Layer}
 
-More text.
+The Operational Management Layer supports setup of the individual job definition and 
+interaction between jobs, job parameters, scheduling, monitoring, communication and alerting within the factory.
 
-Lots of text.
+The layer is the central management engine of the factory. 
 
-More text.
+The layer consists of five groupings:
+\begin{enumerate}
+  \item Jobs
+  \item Schedule
+  \item Monitor
+  \item Communication
+  \item Alerts
+\end{enumerate}
 
-Lots of text.
+\subsubsection{Functional Layer}
+The functional layer store the scripts that describes every functional process of the complete factory.
 
-More text.
+The layer consists of six groupings of jobs:
+\begin{enumerate}
+  \item Retrieve
+  \item Assess
+  \item Process
+  \item Transform
+  \item Organise
+  \item Report
+\end{enumerate}
 
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-
-
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
-
-More text.
-
-Lots of text.
 
 \appendix
-\section{Appendix Title}
+\section{Performance Improvement Results}
 
-This is the text of the appendix, if you need one.
+The Performance Improvement Results is as follows:
+
+Applying 5S - Sort improvement process to Retrieve Jobs.
+Applying 5S - Set-in-Order improvement process to Retrieve Jobs.
+Applying 5S - Shine improvement process to Retrieve Jobs.
+Applying 5S - Standardise Sort improvement process to Retrieve Jobs.
+Applying 5S - Sustain improvement process to Retrieve Jobs.
+
+Applying Lean Waste - Transport to Retrieve Jobs.
+Applying Lean Waste - Inventory to Retrieve Jobs.
+Applying Lean Waste - Motion to Retrieve Jobs.
+Applying Lean Waste - Waiting to Retrieve Jobs.
+Applying Lean Waste - Overproduction to Retrieve Jobs.
+Applying Lean Waste - Over-processing to Retrieve Jobs.
+Applying Lean Waste - Defects to Retrieve Jobs.
 
 \acks
 
-Acknowledgments, if needed.
+Thank you to Prof Mark Whitehorn and Prof Janet Hughes for her guidance into the Operational Research, Business Intelligence, Data Science and Data Engineering concepts utilised in this research.
 
 % We recommend abbrvnat bibliography style.
 
@@ -274,13 +174,7 @@ Acknowledgments, if needed.
 
 % The bibliography should be embedded for final submission.
 
-\begin{thebibliography}{}
-\softraggedright
-
-\bibitem[Smith et~al.(2009)Smith, Jones]{smith02}
-P. Q. Smith, and X. Y. Jones. ...reference text...
-
-\end{thebibliography}
+\bibliography{andre}
 
 
 \end{document}
@@ -290,4 +184,4 @@ P. Q. Smith, and X. Y. Jones. ...reference text...
 %  Date         Person  Ver.    Change
 %  ----         ------  ----    ------
 
-%  2013.06.29   TU      0.1--4  comments on permission/copyright notices
+%  2015.06.01   AV      0.1--1  First draft

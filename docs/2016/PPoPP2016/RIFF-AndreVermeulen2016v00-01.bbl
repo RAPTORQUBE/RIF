@@ -1,0 +1,20 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[George et~al.(2005)George, Rowlands, Price, and Maxey]{george2005lean}
+M.~George, D.~Rowlands, M.~Price, and J.~Maxey.
+\newblock The lean six sigma pocket toolbook.
+\newblock 2005.
+
+\bibitem[Sonzogni et~al.(2002)Sonzogni, Yommi, Nigro, and
+  Storti]{sonzogni2002parallel}
+V.~E. Sonzogni, A.~M. Yommi, N.~M. Nigro, and M.~A. Storti.
+\newblock A parallel finite element program on a beowulf cluster.
+\newblock \emph{Advances in Engineering Software}, 33\penalty0 (7):\penalty0
+  427--443, 2002.
+
+\end{thebibliography}

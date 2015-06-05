@@ -1,1 +1,27 @@
 https://www.waset.org/conference/2016/03/paris/ICPP/call-for-papers
+
+The ICPP 2016 : 18th International Conference on Parallel Processing is the premier inter-multi-trans-disciplinary forum for the presentation of new advances and research results in the fields of Parallel Processing. The conference will bring together leading academic scientists, researchers and scholars in the domain of interest from around the world. Topics of interest for submission include, but are not limited to:
+
+    Support Tools and Environments
+    Performance Prediction and Evaluation
+    Scheduling and Load Balancing
+    High Performance Architectures and Compilers
+    Parallel and Distributed Data Management
+    Grid, Cluster and Cloud Computing
+    Green High Performance Computing
+    Distributed Systems and Algorithms
+    Parallel and Distributed Programming
+    Parallel Numerical Algorithms
+    Multicore and Manycore Programming
+    Theory and Algorithms for Parallel Computation
+    High Performance Networks and Communication
+    High Performance and Scientific Applications
+    GPU and Accelerator Computing
+
+
+
+ Important Dates
+Paper submission 	  													September 14, 2015
+Notification of acceptance 	  											October 14, 2015
+Final paper submission and authors' registration (Camera Ready) 	  	November 14, 2015
+Conference Dates 	  													March 14 - 15, 2016
