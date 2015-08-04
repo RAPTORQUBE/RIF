@@ -1,0 +1,64 @@
+\begin{thebibliography}{10}
+
+\bibitem{bergman2008exascale}
+{\sc Bergman, K., Borkar, S., Campbell, D., Carlson, W., Dally, W., Denneau,
+  M., Franzon, P., Harrod, W., Hill, K., Hiller, J., et~al.}
+\newblock Exascale computing study: Technology challenges in achieving exascale
+  systems.
+\newblock {\em Defense Advanced Research Projects Agency Information Processing
+  Techniques Office (DARPA IPTO), Tech. Rep 15\/} (2008).
+
+\bibitem{feld2000lean}
+{\sc Feld, W.~M.}
+\newblock {\em Lean manufacturing: tools, techniques, and how to use them}.
+\newblock CRC Press, 2000.
+
+\bibitem{hintjens2011omq}
+{\sc Hintjens, P.}
+\newblock {\O}mq-the guide.
+\newblock {\em Online: http://zguide. zeromq. org/page: all, Accessed on 23\/}
+  (2011).
+
+\bibitem{malcolm2012arrayfire}
+{\sc Malcolm, J., Yalamanchili, P., McClanahan, C., Venugopalakrishnan, V.,
+  Patel, K., and Melonakos, J.}
+\newblock Arrayfire: a gpu acceleration platform.
+\newblock In {\em SPIE Defense, Security, and Sensing\/} (2012), International
+  Society for Optics and Photonics, pp.~84030A--84030A.
+
+\bibitem{mishra2014titan}
+{\sc Mishra, V.}
+\newblock Titan graph databases with cassandra.
+\newblock In {\em Beginning Apache Cassandra Development}. Springer, 2014,
+  pp.~123--151.
+
+\bibitem{o2013artificial}
+{\sc O'Leary, D.~E.}
+\newblock Artificial intelligence and big data.
+\newblock {\em IEEE Intelligent Systems}, 2 (2013), 96--99.
+
+\bibitem{ortega2013combining}
+{\sc Ortega, F., Moguerza, J.~M., and Cano, E.~L.}
+\newblock Combining r and python for scientific computing.
+\newblock In {\em The R User Conference, useR! 2013 July 10-12 2013 University
+  of Castilla-La Mancha, Albacete, Spain\/} (2013), vol.~10, p.~92.
+
+\bibitem{stone2010opencl}
+{\sc Stone, J.~E., Gohara, D., and Shi, G.}
+\newblock Opencl: A parallel programming standard for heterogeneous computing
+  systems.
+\newblock {\em Computing in science \& engineering 12}, 1-3 (2010), 66--73.
+
+\bibitem{tanase2014highly}
+{\sc Tanase, I., Xia, Y., Nai, L., Liu, Y., Tan, W., Crawford, J., and Lin,
+  C.-Y.}
+\newblock A highly efficient runtime and graph library for large scale graph
+  analytics.
+\newblock In {\em Proceedings of Workshop on GRAph Data management Experiences
+  and Systems\/} (2014), ACM, pp.~1--6.
+
+\bibitem{team2000r}
+{\sc Team, R.~C.}
+\newblock R language definition, 2000.
+
+\end{thebibliography}

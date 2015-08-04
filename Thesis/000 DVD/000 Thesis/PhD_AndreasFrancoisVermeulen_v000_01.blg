@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: PhD_AndreasFrancoisVermeulen_v000_01.aux
+The style file: acm.bst
+Database file #1: andreasfrancoisvermeulen.bib
+Warning--can't use both volume and number fields in ortega2013combining
+You've used 10 entries,
+            2253 wiz_defined-function locations,
+            591 strings with 5926 characters,
+and the built_in function-call counts, 3789 in all, are:
+= -- 356
+> -- 195
+< -- 0
++ -- 81
+- -- 70
+* -- 283
+:= -- 604
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 63
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 150
+empty$ -- 296
+format.name$ -- 70
+if$ -- 800
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 10
+newline$ -- 52
+num.names$ -- 20
+pop$ -- 79
+preamble$ -- 1
+purify$ -- 54
+quote$ -- 0
+skip$ -- 108
+stack$ -- 0
+substring$ -- 197
+swap$ -- 51
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 38
+warning$ -- 1
+while$ -- 34
+width$ -- 12
+write$ -- 103
+(There was 1 warning)
