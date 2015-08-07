@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{aldinucci2011accelerating}
+{\sc Aldinucci, M., Danelutto, M., Kilpatrick, P., Meneghin, M., and Torquati,
+  M.}
+\newblock Accelerating code on multi-cores with fastflow.
+\newblock In {\em Euro-Par 2011 Parallel Processing}. Springer, 2011,
+  pp.~170--181.
+
 \bibitem{bergman2008exascale}
 {\sc Bergman, K., Borkar, S., Campbell, D., Carlson, W., Dally, W., Denneau,
   M., Franzon, P., Harrod, W., Hill, K., Hiller, J., et~al.}

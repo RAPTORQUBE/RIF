@@ -3,46 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PhD_AndreasFrancoisVermeulen_v000_01.aux
 The style file: acm.bst
 Database file #1: andreasfrancoisvermeulen.bib
+Warning--I didn't find a database entry for "roman1985taxonomy"
 Warning--can't use both volume and number fields in ortega2013combining
-You've used 10 entries,
+You've used 11 entries,
             2253 wiz_defined-function locations,
-            591 strings with 5926 characters,
-and the built_in function-call counts, 3789 in all, are:
-= -- 356
-> -- 195
+            597 strings with 6163 characters,
+and the built_in function-call counts, 4346 in all, are:
+= -- 414
+> -- 222
 < -- 0
-+ -- 81
-- -- 70
-* -- 283
-:= -- 604
-add.period$ -- 30
-call.type$ -- 10
-change.case$ -- 63
++ -- 92
+- -- 80
+* -- 321
+:= -- 687
+add.period$ -- 34
+call.type$ -- 11
+change.case$ -- 71
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 150
-empty$ -- 296
-format.name$ -- 70
-if$ -- 800
+cite$ -- 12
+duplicate$ -- 174
+empty$ -- 338
+format.name$ -- 80
+if$ -- 925
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 10
-newline$ -- 52
-num.names$ -- 20
-pop$ -- 79
+int.to.str$ -- 11
+missing$ -- 11
+newline$ -- 57
+num.names$ -- 22
+pop$ -- 90
 preamble$ -- 1
-purify$ -- 54
+purify$ -- 61
 quote$ -- 0
-skip$ -- 108
+skip$ -- 127
 stack$ -- 0
-substring$ -- 197
-swap$ -- 51
+substring$ -- 234
+swap$ -- 61
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 38
+type$ -- 42
 warning$ -- 1
-while$ -- 34
-width$ -- 12
-write$ -- 103
-(There was 1 warning)
+while$ -- 39
+width$ -- 13
+write$ -- 115
+(There were 2 warnings)

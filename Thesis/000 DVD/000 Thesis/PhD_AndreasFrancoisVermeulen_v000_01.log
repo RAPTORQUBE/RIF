@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.7.25)  4 AUG 2015 23:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.7.25)  7 AUG 2015 00:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -254,7 +254,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.eps]
+(grfext)             [.png,.jpg,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
@@ -276,145 +276,211 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 29.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (4.4617pt too wide) in paragraph at lines 45--45
-\subsecfnt against one mil-lion ter-abytes of disk stor-age. The frame-
+Overfull \hbox (4.52779pt too wide) in paragraph at lines 42--42
+\subsecfnt put-ing clus-ter to pro-cess a ex-abyte data lake. The frame-
  []
 
-
-Underfull \vbox (badness 4416) has occurred while \output is active []
-
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \vbox (badness 4120) has occurred while \output is active []
+Overfull \hbox (7.13426pt too wide) in paragraph at lines 72--72
+\subsecfnt pro-cess-ing ca-pa-bil-ity of the fac-tory. The HO-RUS schema
+ []
 
-
-Overfull \hbox (5.78569pt too wide) in paragraph at lines 79--79
+[2]
+Overfull \hbox (5.78569pt too wide) in paragraph at lines 78--78
 []  \T1/aer/bx/n/9 Per-sis-tent Uni-form Pro-to-col Agree-ment (PUPA) Def-
  []
 
 
-Overfull \hbox (5.59393pt too wide) in paragraph at lines 80--80
-\subsecfnt other frame-works like OpenCL [8], Ar-ray-Fire [4], Spark
+Overfull \hbox (5.59393pt too wide) in paragraph at lines 79--79
+\subsecfnt other frame-works like OpenCL [9], Ar-ray-Fire [5], Spark
  []
 
 
-Overfull \hbox (10.68181pt too wide) in paragraph at lines 81--81
+Overfull \hbox (10.68181pt too wide) in paragraph at lines 80--80
 []  \T1/aer/bx/n/9 Per-sis-tent Uni-form Pro-to-col Agree-ment (PUPA) Man-
  []
 
-[2]
-Overfull \hbox (3.14166pt too wide) in paragraph at lines 82--82
+
+Overfull \hbox (3.14166pt too wide) in paragraph at lines 81--81
 []  \subsecfnt The per-sis-tent uni-form pro-to-col agree-ment man-age-ment
  []
 
 
-Overfull \hbox (3.95488pt too wide) in paragraph at lines 95--95
+Overfull \hbox (3.95488pt too wide) in paragraph at lines 94--94
 []  \subsecfnt The ex-e-cu-tion statis-tics is the ba-sic per-for-mance record-
 
  []
 
 
-Overfull \hbox (5.92378pt too wide) in paragraph at lines 97--97
+Overfull \hbox (5.92378pt too wide) in paragraph at lines 96--96
 \subsecfnt sic mon-i-tor-ing in-ter-face be-tween the dif-fer-ent work cells.
  []
 
+
+LaTeX Warning: Citation `roman1985taxonomy' on page \thepage  undefined on inpu
+t line 107.
+
 [3]
-Overfull \hbox (1.65683pt too wide) in paragraph at lines 136--136
+Overfull \hbox (5.19778pt too wide) in paragraph at lines 109--109
+[]  \subsecfnt A non-functional re-quire-ment is a re-quire-ment that spec-
+ []
+
+
+Overfull \hbox (24.62196pt too wide) in paragraph at lines 132--133
+[]\T1/aer/m/n/9 Legal and li-cens-ing is-sues or patent-infringement-avoidabili
+ty 
+ []
+
+
+Overfull \hbox (1.61203pt too wide) in paragraph at lines 168--168
+[]  \subsecfnt The main-te-nance un-til-i-ties are pro-cesing struc-tures that
+ []
+
+[4]
+Overfull \hbox (1.65683pt too wide) in paragraph at lines 197--197
 \subsecfnt tonomous node trans-port sup-plies the pro-cess-ing power
  []
 
 
-Overfull \hbox (2.77884pt too wide) in paragraph at lines 139--139
+Overfull \hbox (2.77884pt too wide) in paragraph at lines 199--199
 \subsecfnt trans-port that sup-plies the pro-cess-ing power and a mea-
  []
 
-[4]
-Overfull \hbox (3.38359pt too wide) in paragraph at lines 163--163
+[5]
+Overfull \hbox (15.83855pt too wide) in paragraph at lines 218--219
+[]\T1/aer/m/n/9 Implement and De-ploy service-oriented ar-chi-tec-ture (SOA) 
+ []
+
+
+Overfull \hbox (3.38359pt too wide) in paragraph at lines 225--225
 \subsecfnt the pro-cess data workspace, a ref-er-ence data workspace
  []
 
 
-Overfull \hbox (1.45901pt too wide) in paragraph at lines 165--165
+Overfull \hbox (1.45901pt too wide) in paragraph at lines 227--227
 \subsecfnt Tran-form data workspace, the or-gan-ise data workspace
  []
 
-[5]
-Overfull \hbox (6.959pt too wide) in paragraph at lines 185--185
+[6]
+Overfull \hbox (6.959pt too wide) in paragraph at lines 246--246
 \subsecfnt tonomous node trans-port and the spe-sific mea-sure agree-
  []
 
 
-Overfull \hbox (6.959pt too wide) in paragraph at lines 192--192
+Overfull \hbox (6.959pt too wide) in paragraph at lines 253--253
 \subsecfnt tonomous node trans-port and the spe-sific mea-sure agree-
  []
 
 
-Overfull \hbox (8.5871pt too wide) in paragraph at lines 197--197
+Overfull \hbox (8.5871pt too wide) in paragraph at lines 258--258
 \subsecfnt ing a re-mote as-sess-ment yoke, an ap-propi-ate au-tonomous
  []
 
-[6]
-Overfull \hbox (1.11786pt too wide) in paragraph at lines 215--215
+[7]
+Overfull \hbox (1.11786pt too wide) in paragraph at lines 276--276
 []  \subsecfnt Pre-pare data for each ex-ploratory par-al-lel test to match
  []
 
 
-Overfull \hbox (3.00916pt too wide) in paragraph at lines 219--219
+Overfull \hbox (3.00916pt too wide) in paragraph at lines 280--280
 []  \subsecfnt Ex-e-cute the ex-ploratory par-al-lel test in-struc-tions in par
 -
  []
 
-[7] [8]
-Overfull \hbox (4.06604pt too wide) in paragraph at lines 291--291
+[8] [9]
+Overfull \hbox (4.25276pt too wide) in paragraph at lines 337--337
+\subsecfnt for analysing the cur-rent state and de-sign-ing a im-proved
+ []
+
+[10]
+Overfull \hbox (1.71098pt too wide) in paragraph at lines 383--383
+\subsecfnt ver-ify tasks at-tached to the sched-uled PRISM con-trolled
+ []
+
+[11] [12]
+Overfull \hbox (3.20789pt too wide) in paragraph at lines 476--476
+\subsecfnt in or-der to com-plete a task: double-handling data, seek-
+ []
+
+
+Overfull \hbox (3.20746pt too wide) in paragraph at lines 476--476
+\subsecfnt ing per-mis-sion dur-ing pro-cess-ing, un-nec-es-sary pro-cess-
+ []
+
+
+Overfull \hbox (1.7119pt too wide) in paragraph at lines 491--491
+[]  \subsecfnt Im-ple-ment the plan, ex-e-cute the pro-cess, make the prod-
+ []
+
+
+Overfull \hbox (6.94751pt too wide) in paragraph at lines 493--493
+[]  \subsecfnt Study the ac-tual re-sults (mea-sured and col-lected in "DO"
+ []
+
+
+Overfull \hbox (1.45854pt too wide) in paragraph at lines 495--495
+\subsecfnt showed some-thing dif-fer-ent than ex-pected (whether bet-
+ []
+
+
+Overfull \hbox (4.83618pt too wide) in paragraph at lines 495--495
+\subsecfnt think-ing to pro-pose and de-cide upon al-ter-na-tive changes
+ []
+
+
+Overfull \hbox (4.06604pt too wide) in paragraph at lines 495--495
 []\secfnt Define-Measure-Analyse-Improve-Control
  []
 
-[9]
-Overfull \hbox (4.8221pt too wide) in paragraph at lines 304--304
+[13]
+Overfull \hbox (13.48131pt too wide) in paragraph at lines 511--511
+[]  \subsecfnt “A place for ev-ery-thing, and ev-ery-thing in its place.”
+ []
+
+
+Overfull \hbox (4.8221pt too wide) in paragraph at lines 518--518
 []\secfnt Rapid In-for-ma-tion Fac-tory Clus-ter (RIFC) 
  []
 
 
-Overfull \hbox (10.50154pt too wide) in paragraph at lines 308--308
+Overfull \hbox (10.50154pt too wide) in paragraph at lines 522--522
 \subsecfnt of two hun-derd thou-sand ama-zon cloud nodes (d2.8xlarge
  []
 
 
-Overfull \hbox (20.44554pt too wide) in paragraph at lines 309--309
+Overfull \hbox (20.44554pt too wide) in paragraph at lines 523--523
 []  \subsecfnt The hun-derd ama-zon graph-i-cal en-hanced nodes (g2.8xlarge
  []
 
-[10] (./PhD_AndreasFrancoisVermeulen_v000_01.bbl) [11
-
-]
+[14] (./PhD_AndreasFrancoisVermeulen_v000_01.bbl) [15]
 (./PhD_AndreasFrancoisVermeulen_v000_01.aux) ) 
 Here is how much of TeX's memory you used:
- 2810 strings out of 495000
- 35545 string characters out of 6181169
- 94430 words of memory out of 5000000
- 5954 multiletter control sequences out of 15000+600000
- 62048 words of font info for 90 fonts, out of 8000000 for 9000
+ 2793 strings out of 495000
+ 35463 string characters out of 6181169
+ 96087 words of memory out of 5000000
+ 5952 multiletter control sequences out of 15000+600000
+ 53295 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,10n,28p,801b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,28p,1018b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fo
 nts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PhD_AndreasFrancoisVermeulen_v000_01.pdf (11 pages, 190171 by
+fonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
+mri8a.pfb>
+Output written on PhD_AndreasFrancoisVermeulen_v000_01.pdf (15 pages, 179012 by
 tes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

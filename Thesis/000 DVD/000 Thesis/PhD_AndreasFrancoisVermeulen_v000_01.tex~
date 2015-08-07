@@ -36,45 +36,49 @@ Mr Andy Cobley\\
 \keywords{{\textit{exascale, knowledge-extraction, patterns, rapid information factory, RIF, RIFF, RIFC, heterogeneous computing, parallel patterns, mapr, cassandra, spark, opencl, R, fastflow, cuda, 3D torus network, deep learning, machine learning}}}
 \end{tiny}
 \section{Research Question}
-Can a Rapid Information Factory using agile lean six sigma principles solve the effective and efficient exascale heterogeneous computing based processing of a million terabytes data lake into a value-add deep learning knowledge source?
+\paragraph{Can a Rapid Information Factory using agile lean six sigma principles to solve the effective and efficient exascale heterogeneous computing based processing of a million terabytes data lake into a value-add deep learning knowledge source?}
+
+\newpage
 \section{Rapid Information Factory}
 \subsection{Rapid Information Factory Framework}
-The rapid information factory framework is a methodology that guides a exascale \cite{bergman2008exascale} heterogeneous computing cluster to process a exascale data lake. The framework uses billion billion calculations per second against one million terabytes of disk storage. The framework generates a series of factories that together can process the data lake using custom designed parallel processes.
+\paragraph{The rapid information factory framework is a methodology that guides a exascale \cite{bergman2008exascale} heterogeneous computing cluster to process a exascale data lake. The framework uses billion billion calculations per second against one million terabytes of disk storage. The framework generates a series of factories that together can process the data lake using custom designed parallel processes.}
 \subsubsection{Functional Layer}
 The functional layer is the area that handles the functional processes within the cluster.
 This layer is the bulk of the framework as it contains the main components of the process.
 \paragraph{\textbf{High-Level View}}
-\paragraph{The high-level view of the Homogeneous Ontology for Recursive Uniform Schema (HORUS) shows the users the current status of the Rapid Information Factory. This is achieve by visualisation of the rapid information factory via a Rstudio Shiny \cite{ortega2013combining} and R \cite{team2000r}based web site. }
+\paragraph{The high-level view of the Homogeneous Ontology for Recursive Uniform Schema (HORUS) shows the users the current status of the Rapid Information Factory. This is achieve by visualisation of the rapid information factory via a Rstudio Shiny \cite{ortega2013combining} and R \cite{team2000r} based web site.}
 \paragraph{\textbf{Synaptic Assimilator (SA)}}
 \paragraph{The synaptic assimilator is an artificial intelligence \cite{o2013artificial} engine that performs the processes assigned to the system to the most effective and efficient method.}
+\paragraph{The artificial intelligence uses machine learning as a investigation and testing method to improve and select the correct combination of processing artifacts to achieve the efficient outcome.}
 \paragraph{\textbf{Exascale Data Lake}}
 \paragraph{The exascale data lake is a data source that is larger than thousand petabytes or one million terabytes or one billion gigabytes.}
 \paragraph{\textbf{Persistent Recursive Information Schema Manipulator (PRISM)}}
-\paragraph{The persistent recursive information schema manipulator is the central control framework for each data procesing flow through the system using a bulk synchronous parallel (BSP) abstract computer as a bridging model for rapid information factory's parallel algorithms.}
+\paragraph{The persistent recursive information schema manipulator is the central control framework for each data procesing flow through the system using a bulk synchronous parallel (BSP) abstract computer as a bridging model for rapid information factory's parallel algorithms that are pre-defined and tested by the factory.}
 \paragraph{\textbf{RAPTOR Supersteps}}
-\paragraph{The RAPTOR framework is the supersteps of the bulk synchronous parallel (BSP) based process. The framework uses basic building blocks like pipeline, farm and loopback.}
+\paragraph{The RAPTOR framework is the supersteps of the bulk synchronous parallel (BSP) based process. The framework uses basic building blocks like pipeline, farm and loopback to formulate more complex structures to handle the data requirements.}
 \paragraph{The supersteps are:}
 \paragraph{\textbf{Retrieve Superstep}}
-\paragraph{The retrieve superstep is responsible for all data retrieval from other data sources. (See Retrieve Superstep for more details)}
+\paragraph{The retrieve superstep is responsible for all data retrieval from other data sources. \textit{(See Retrieve Superstep for more details)}}
 \paragraph{\textbf{Assess Superstep}}
-\paragraph{The assess superstep is responsible for the data validation in the system.(See Assess Superstep for more details)}
+\paragraph{The assess superstep is responsible for the data validation in the system.\textit{(See Assess Superstep for more details)}}
 \paragraph{\textbf{Process Superstep}}
-\paragraph{The process superstep is responsible for the processing of the data into a data vault that keeps full record of the different phases that the data is process over time.(See Process Superstep for more details)}
+\paragraph{The process superstep is responsible for the processing of the data into a data vault that keeps full record of the different phases that the data is process over time.\textit{(See Process Superstep for more details)}}
 \paragraph{\textbf{Transform Superstep}}
-\paragraph{The transform superstep is responsible for transforming the data lake into a business formatted data warehouse.(See Transform Superstep for more details)}
+\paragraph{The transform superstep is responsible for transforming the data lake into a business formatted data warehouse.\textit{(See Transform Superstep for more details)}}
 \paragraph{\textbf{Organise Superstep}}
-\paragraph{The organise supersteo is responsible to orginise data sets together for each business group.(See Organise Superstep for more details)}
+\paragraph{The organise supersteo is responsible to orginise data sets together for each business group.\textit{(See Organise Superstep for more details)}}
 \paragraph{\textbf{Report Superstep}}
-\paragraph{The report superstop is responsible to perform the reporting requirements.(See Report Superstep for more details)}
+\paragraph{The report superstop is responsible to perform the reporting requirements.\textit{(See Report Superstep for more details)}}
 \subsubsection{Operational Management Layer}
 \paragraph{\textbf{Autonomous Node Transport (ANT) Definitions}}
-\paragraph{The autonomous node transport definitions are the set of cloud instances.}
+\paragraph{The autonomous node transport definitions are the set of cloud instances or physical servers that supporst the processing capability of the factory.}
+\paragraph{The nodes are truly heterogeneous computing supporting combinations of processors that covers the range from .....}
 \paragraph{\textbf{Autonomous Node Transport Management}}
 \paragraph{The autonomous node transport management oversees the complete process of running the systems.}
 \paragraph{\textbf{Monitoring}}
 \paragraph{Monitoring handles the monitoring tasks in the system.}
 \paragraph{\textbf{Persistent Uniform Protocol Agreement (PUPA) Definitions}}
-\paragraph{The persistent uniform protocol agreement definitions are the collection of the algorithmic skeletons within the system.The PUPAs are programs generate using other frameworks like OpenCL \cite{stone2010opencl}, ArrayFire \cite{malcolm2012arrayfire}, Spark \cite{hintjens2011omq}, Titan graph database \cite{tanase2014highly} \cite{mishra2014titan}}
+\paragraph{The persistent uniform protocol agreement definitions are the collection of the algorithmic skeletons within the system.The PUPAs are programs generate using other frameworks like OpenCL \cite{stone2010opencl}, ArrayFire \cite{malcolm2012arrayfire}, Spark \cite{hintjens2011omq}, Titan graph database \cite{tanase2014highly} \cite{mishra2014titan}, FastFlow Framework \cite{aldinucci2011accelerating}.}
 \paragraph{\textbf{Persistent Uniform Protocol Agreement (PUPA) Management}}
 \paragraph{The persistent uniform protocol agreement management oversees the complete collection.}
 \paragraph{\textbf{Alerting}}
@@ -115,7 +119,7 @@ This layer is the bulk of the framework as it contains the main components of th
 \subsection{Functional Layer}
 \subsubsection{Retrieve Superstep}
 \paragraph{The retrieve superstep uses a series of work cells with an assembly format that is .......}
-\subsubfeld2000leansection{Assess Superstep}
+\subsubsection{Assess Superstep}
 \paragraph{The assess superstep uses a series of work cells with an assembly format that is .......}
 \subsubsection{Process Superstep}
 \paragraph{The process superstep uses a series of work cells with an assembly format that is .......}
@@ -130,9 +134,11 @@ This layer is the bulk of the framework as it contains the main components of th
 \subsubsection{Monitor Work Cell}
 \paragraph{The monitor work cell consists of a persistent recursive information schema manipulator plus a remote assessment yoke for each processing work cell the spesific BSP flow requires in the rapid information factory}
 \subsubsection{Processing Work Cell}
-\paragraph{The processing work cell is a combination of a remote assessment yoke, an input persistent uniform protocol agreement, an autonomous node transport and an output persistent uniform protocol agreement. The remote assessment yoke communicates to the remote assessment yoke attached to the monitor work cell. The input persistent uniform protocol agreement holds the instructions to enable the work cell to import the data into the work cell. The output persistent uniform protocol agreement holds the instructions to enable the work cell to export the data from the work cell.The autonomous node transport supplies the processing power to execute the PUPA and the yoke instructions}
+\paragraph{The processing work cell is a combination of a remote assessment yoke, an input persistent uniform protocol agreement, an autonomous node transport and an output persistent uniform protocol agreement. The remote assessment yoke communicates to the remote assessment yoke attached to the monitor work cell. The input persistent uniform protocol agreement holds the instructions to enable the work cell to import the data into the work cell. The output persistent uniform protocol agreement holds the instructions to enable the work cell to export the data from the work cell.The autonomous node transport supplies the processing power to execute the PUPA and the yoke instructions.}
 \subsubsection{Measure Work Cell}
 \paragraph{The measure work cell consists of an autonomous node transport that supplies the processing power and a measure agreement precision that supplies the tests to determine if the processing was successful.}
+
+\newpage
 \subsection{Rapid Information Factory Data Sources}
 \subsubsection{Retrieve Data Sources}
 \paragraph{The retrieve data sources are external data source that requires a spesial type of persistent uniform protocol agreement called a node extractor and schema transformer that supplies the data processing instructions to transform the extraernal data into HORUS compliant data structures. The additional data workspace supplies preloaded data to assist the retrieve superstep to load the data from the external data source to create the retrieve data workspace that is the main storage structure in HORUS any retrieve data loads.}
@@ -160,6 +166,7 @@ This layer is the bulk of the framework as it contains the main components of th
 \paragraph{The organise data sources are read only input from the Tranform data workspace, the organise data workspace to handle any organise data manipulation, the rapid information framework for datamarts, the rapid information framework for analytics and the rapid information framework for cubes that is the main storage structures for the factory.}
 \subsubsection{Report Data Sources}
 \paragraph{The report data sources are read only input from the rapid information framework for datamarts, the rapid information framework for analytics and the rapid information framework for cubes. The role based access contol security process enforces any role based security access to the data sources. The rapid information framework for visualistion handles the factory's visualisation requirements. The rapid information framework for exports are the export methord for the rapid information factory and formats the HORUS compliant data structures into external data formats via a persistent uniform protocol agreement. }
+
 \newpage
 \section{Rapid Test Framework}
 \subsection{Unit testing}
@@ -193,7 +200,6 @@ This layer is the bulk of the framework as it contains the main components of th
 \paragraph{Execute the Performance Test instructions in parallel by combining a remote assessment yoke, an appropiate autonomous node transport and the spesific measure agreement precision.}
 \paragraph{Solution Completion Report}
 \paragraph{The solution completion report is the combined data for the solution testing.}
-\newpage
 \subsection{Acceptance Testing}
 \paragraph{The acceptance testing performance the testing of the solution.}
 \paragraph{Acceptance Testing Plan}
@@ -215,10 +221,148 @@ This layer is the bulk of the framework as it contains the main components of th
 \paragraph{Acceptance Completion Report}
 \paragraph{The acceptance completion report is the combined data for the solution testing.}
 \newpage
+\section{Process Layer - Data Vault}
+\subsection{Time-People-Object-Location-Event}
+\subsubsection{Time (Hub)}
+\subsubsection{Time Details (Satellite)}
+\subsubsection{People (Hub)}
+\subsubsection{People Details (Satellite)}
+\subsubsection{Object (Hub)}
+\subsubsection{Object Details (Satellite)}
+\subsubsection{Location (Hub)}
+\subsubsection{Location Details (Satellite)}
+\subsubsection{Event (Hub)}
+\subsubsection{Event Details (Satellite)}
+\subsubsection{Time People (Link)}
+\subsubsection{Time Object (Link)}
+\subsubsection{Time Location (Link)}
+\subsubsection{Time Event (Link)}
+\subsubsection{People Object (Link)}
+\subsubsection{People Location (Link)}
+\subsubsection{People Event (Link)}
+\subsubsection{People People (Link)}
+\subsubsection{Object Location (Link)}
+\subsubsection{Object Event (Link)}
+\subsubsection{Object object (Link)}
+\subsubsection{Location Event (Link)}
+\subsubsection{Location location (Link)}
+\subsubsection{Event Event (Link)}
+\newpage
+\section{Transform Layer - Sun Models}
+\subsection{Dimensions}
+\subsubsection{Type 0 Dimension}
+\subsubsection{Type 1 Dimension}
+\subsubsection{Type 2 Dimension}
+\subsubsection{Outrigger Dimension}
+\subsubsection{Bridge Dimension}
+\subsubsection{Mini Dimension}
+\subsection{Facts}
+\subsubsection{Measures}
+\subsubsection{Factless}
+\newpage
+\section{Schedule Framework}
+\subsection{Cycle Time}
+\paragraph{Cycle time describes the time use to complete a specific task from start to finish.}
+\paragraph{The time is calculated as .....}
+\subsection{Value Stream}
+\paragraph{Value stream mapping is the lean-management method for analysing the current state and designing a improved state for the series of activities.}
+\subsection{Value Added Procesing Time}
+\paragraph{The value added processing time is the time the factory process the data to add value.}
+\subsection{Non Value Added Procesing Time}
+\paragraph{The non value added processing time is the time the factory wastes while process the data.}
+\subsection{Production Lead Time}
+\paragraph{Production Lead Time is the total time (Value Added Procesing and Non Value Added Procesing) use to execute the data through an entire value stream.}
+\subsection{Schedule Backlog}
+\paragraph{The Schedule Backlog is all the required processing Persistent Uniform Protocol Agreements (PUPA) prioritised, ordered list, sorted by business value and risk. It contains the tasks to accomplish the RAPTOR flow. The Schedule Backlog often contains user stories covering functional requirements, non-functional requirements for the RAPTOR flow.}
+\subsubsection{INVEST RAPTOR flow}
+\paragraph{I - Independent}
+\paragraph{RAPTOR flow must be independent.}
+\paragraph{N - Negotiable}
+\paragraph{A RAPTOR flow always negotiable. It is not an explicit contract for features; rather, details will be co-created by the customer and programmer during development.}
+\paragraph{V - Valuable}
+\paragraph{A RAPTOR flow must be valuable to business.}
+\paragraph{E - Estimable}
+\paragraph{A RAPTOR flow must be estimated.}
+\paragraph{S - Small}
+\paragraph{RAPTOR flow must be as small as possible.}
+\paragraph{T - Testable}
+\paragraph{A RAPTOR flow must be testable.}
+\subsubsection{SMART Tasks}
+\paragraph{S – Specific}
+\paragraph{A RAPTOR flow task needs to be specific and tasks to add up to the full RAPTOR flow.}
+\paragraph{M – Measurable}
+\paragraph{The key measure is testability}
+\paragraph{A – Achievable}
+\paragraph{The task should be achievable.}
+\paragraph{R – Relevant}
+\paragraph{Every task should be relevant and contributing to the RAPTOR flow in the factory. Stories are divided into tasks for the achievement of RAPTOR flow.}
+\paragraph{T – Time-boxed}
+\paragraph{A task should be time-boxed: limited to a specific duration.}
+\subsection{Active Process Backlog}
+\paragraph{The active process backlog consists of the committed process tasks attached to the scheduled PRISM controlled end-to-end RAPTOR flows.}
+\subsection{Active Process Work Cells}
+\paragraph{The active process work cells is the combination of processing structures that is currently active in the rapid information factory. The quantity is determined by the available and required parallel processing units active in the factory.}
+\subsubsection{Process Set-up Time}
+\paragraph{The process set-up time is the time it takes the factory to construct the work cell and bring it online ready for processing data.}
+\subsubsection{Process Run Time}
+\paragraph{The process run time is the time the work cell uses to process the data against the spesific input and output PUPAs' algoritmes.}
+\subsubsection{Process Reset Time}
+\paragraph{The process reset time is the time it takes the factory to reset the spesific work cell ready for the next work cell.}
+\subsection{Verify Backlog}
+\paragraph{The verify backlog is .......}
+\subsection{Active Verify Backlog}
+\paragraph{The active process backlog consists of the committed verify tasks attached to the scheduled PRISM controlled end-to-end RAPTOR flows.}
+\subsection{Active Verify Work Cells}
+\paragraph{The active verify work cells are .......}
+\subsubsection{Verify Set-up Time}
+\paragraph{The verify set-up time is .......}
+\subsubsection{Verify Run Time}
+\paragraph{The verify run time is .......}
+\subsubsection{Verify Reset Time}
+\paragraph{The verify reset time is .......}
+\subsection{Information Process Log}
+\paragraph{The information process log is .......}
+\newpage
+\section{Improvement Processes}
+\subsection{The 8 Wastes}
+\subsubsection{Defects}
+\subsubsection{Overproduction}
+\subsubsection{Waiting}
+\subsubsection{Non-Utilised Talent}
+\subsubsection{Transportation}
+\subsubsection{Inventory}
+\subsubsection{Motion}
+\subsubsection{Extra-processing}
+\subsection{Plan-Do-Act-Check Improvement Process}
+\subsubsection{Plan}
+\subsubsection{Do}
+\subsubsection{Check}
+\subsubsection{Act}
+\subsection{Define-Measure-Analyse-Improve-Control Improvement Process}
+\subsubsection{Define}
+\subsubsection{Measure}
+\subsubsection{Analyse}
+\subsubsection{Improve}
+\subsubsection{Control}
+\subsection{Lean Six Sigma: 5S}
+\subsubsection{Sort}
+\subsubsection{Set in Order}
+\subsubsection{Shine}
+\subsubsection{Standardise}
+\subsubsection{Systematise}
+\newpage
 \subsection{Rapid Information Factory Cluster (RIFC)}
-\paragraph{The rapid information factory cluster is a bulk synchronous parallel (BSP) engine. The cluster consisting of two hunderd thousand amazon cloud nodes (d2.8xlarge with thirty six processing cores	two hunderd forty four gigabyte memory and twenty four two thousand gigabyte harddisks) to support billion billion calculations per second against one million terabytes of disk storage. The hunderd graphical enhanced nodes (g2.8xlarge with four GPUs with one thousand five hunderd CUDA cores and 4GB of video memory, thirty two cpus 	sixty gigabyte and two hunderd and forty gigabyte.)}
-
+\subsubsection{3D Torus Network Framework}
+\subsubsection{MapR Data Lake}
+\paragraph{The rapid information factory cluster is a bulk synchronous parallel (BSP) engine. The cluster consisting of two hunderd thousand amazon cloud nodes (d2.8xlarge with thirty six processing cores, two hunderd forty four gigabyte memory and twenty four two thousand gigabyte hard disks) to support billion billion calculations per second against one million terabytes of disk storage.}
+\paragraph{The hunderd amazon graphical enhanced nodes (g2.8xlarge with four GPUs each with one thousand five hunderd CUDA cores, four gigabyte of video memory, thirty two cpus, sixty gigabyte memory and two hunderd and forty gigabyte solid state drives.)}
+\subsubsection{Titan Graph Data Lake}
+\paragraph{The two hunderd amazon graphical enhanced nodes (g2.8xlarge with four GPUs each with one thousand five hunderd CUDA cores, four gigabyte of video memory, thirty two cpus, sixty gigabyte memory and two hunderd and forty gigabyte solid state drives.)}\subsubsection{Cassandra Data Lake}
+\paragraph{The five hunderd amazon graphical enhanced nodes (g2.8xlarge with four GPUs each with one thousand five hunderd CUDA cores, four gigabyte of video memory, thirty two cpus, sixty gigabyte memory and two hunderd and forty gigabyte solid state drives.)}
+\newpage
+\section{Experiments}
+\section{Results}
 \newpage
 \bibliography{andreasfrancoisvermeulen}
-\bibliographystyle{ieeetr}
+\bibliographystyle{acm}
 \end{document}
