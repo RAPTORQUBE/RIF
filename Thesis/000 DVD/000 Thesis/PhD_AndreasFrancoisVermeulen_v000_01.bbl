@@ -50,6 +50,11 @@
 \newblock In {\em The R User Conference, useR! 2013 July 10-12 2013 University
   of Castilla-La Mancha, Albacete, Spain\/} (2013), vol.~10, p.~92.
 
+\bibitem{roman1985taxonomy}
+{\sc Roman, G.-C.}
+\newblock A taxonomy of current issues in requirements engineering.
+\newblock {\em Computer 18}, 4 (1985), 14--23.
+
 \bibitem{stone2010opencl}
 {\sc Stone, J.~E., Gohara, D., and Shi, G.}
 \newblock Opencl: A parallel programming standard for heterogeneous computing
