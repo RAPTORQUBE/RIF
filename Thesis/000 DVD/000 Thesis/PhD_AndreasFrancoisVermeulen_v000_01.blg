@@ -4,45 +4,45 @@ The top-level auxiliary file: PhD_AndreasFrancoisVermeulen_v000_01.aux
 The style file: acm.bst
 Database file #1: andreasfrancoisvermeulen.bib
 Warning--can't use both volume and number fields in ortega2013combining
-You've used 12 entries,
+You've used 14 entries,
             2253 wiz_defined-function locations,
-            603 strings with 6259 characters,
-and the built_in function-call counts, 4621 in all, are:
-= -- 443
-> -- 229
+            616 strings with 6877 characters,
+and the built_in function-call counts, 5458 in all, are:
+= -- 519
+> -- 298
 < -- 0
-+ -- 96
-- -- 82
-* -- 344
-:= -- 731
-add.period$ -- 37
-call.type$ -- 12
-change.case$ -- 75
++ -- 125
+- -- 108
+* -- 421
+:= -- 883
+add.period$ -- 43
+call.type$ -- 14
+change.case$ -- 94
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 183
-empty$ -- 363
-format.name$ -- 82
-if$ -- 981
+cite$ -- 15
+duplicate$ -- 201
+empty$ -- 406
+format.name$ -- 108
+if$ -- 1138
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 12
-newline$ -- 62
-num.names$ -- 24
-pop$ -- 92
+int.to.str$ -- 14
+missing$ -- 13
+newline$ -- 72
+num.names$ -- 28
+pop$ -- 107
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 80
 quote$ -- 0
-skip$ -- 132
+skip$ -- 143
 stack$ -- 0
-substring$ -- 259
-swap$ -- 63
+substring$ -- 295
+swap$ -- 66
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 46
+type$ -- 54
 warning$ -- 1
-while$ -- 43
-width$ -- 14
-write$ -- 125
+while$ -- 49
+width$ -- 16
+write$ -- 146
 (There was 1 warning)

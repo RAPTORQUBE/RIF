@@ -7,6 +7,14 @@
 \newblock In {\em Euro-Par 2011 Parallel Processing}. Springer, 2011,
   pp.~170--181.
 
+\bibitem{asanovic2006landscape}
+{\sc Asanovic, K., Bodik, R., Catanzaro, B.~C., Gebis, J.~J., Husbands, P.,
+  Keutzer, K., Patterson, D.~A., Plishker, W.~L., Shalf, J., Williams, S.~W.,
+  et~al.}
+\newblock The landscape of parallel computing research: A view from berkeley.
+\newblock Tech. rep., Technical Report UCB/EECS-2006-183, EECS Department,
+  University of California, Berkeley, 2006.
+
 \bibitem{bergman2008exascale}
 {\sc Bergman, K., Borkar, S., Campbell, D., Carlson, W., Dally, W., Denneau,
   M., Franzon, P., Harrod, W., Hill, K., Hiller, J., et~al.}
@@ -14,6 +22,13 @@
   systems.
 \newblock {\em Defense Advanced Research Projects Agency Information Processing
   Techniques Office (DARPA IPTO), Tech. Rep 15\/} (2008).
+
+\bibitem{daniel1997scheduling}
+{\sc Daniel, V., and Guide, R.}
+\newblock Scheduling with priority dispatching rules and drum-buffer-rope in a
+  recoverable manufacturing system.
+\newblock {\em International Journal of Production Economics 53}, 1 (1997),
+  101--116.
 
 \bibitem{feld2000lean}
 {\sc Feld, W.~M.}

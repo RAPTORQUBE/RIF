@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex PhD_AndreasFrancoisVermeulen_v000_01"] 1439247781 "PhD_AndreasFrancoisVermeulen_v000_01.aux" "PhD_AndreasFrancoisVermeulen_v000_01.bbl" "PhD_AndreasFrancoisVermeulen_v000_01" 1439247837
+["bibtex PhD_AndreasFrancoisVermeulen_v000_01"] 1439504658 "PhD_AndreasFrancoisVermeulen_v000_01.aux" "PhD_AndreasFrancoisVermeulen_v000_01.bbl" "PhD_AndreasFrancoisVermeulen_v000_01" 1439504658
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/acm.bst" 1292289607 21064 c61a48664f3c347ce7f73c1a6a530506 ""
-  "PhD_AndreasFrancoisVermeulen_v000_01.aux" 1439247781 72890 c66d13b286a1b9f8496bf2a3658729c6 ""
+  "PhD_AndreasFrancoisVermeulen_v000_01.aux" 1439504658 85931 2d7d062db5092984fffe185fc66bfaba ""
   "PhD_AndreasFrancoisVermeulen_v000_01.bcf" 0 -1 0 ""
-  "andreasfrancoisvermeulen.bib" 1438904407 3445 0a320e051152a99f43d54b01959a9d8c ""
+  "andreasfrancoisvermeulen.bib" 1439393247 4249 b191c802acfb9aaaca7af16a14567cd8 ""
   (generated)
-  "PhD_AndreasFrancoisVermeulen_v000_01.bbl"
   "PhD_AndreasFrancoisVermeulen_v000_01.blg"
-["pdflatex"] 1439247781 "PhD_AndreasFrancoisVermeulen_v000_01.tex" "PhD_AndreasFrancoisVermeulen_v000_01.pdf" "PhD_AndreasFrancoisVermeulen_v000_01" 1439247837
+  "PhD_AndreasFrancoisVermeulen_v000_01.bbl"
+["pdflatex"] 1439504658 "PhD_AndreasFrancoisVermeulen_v000_01.tex" "PhD_AndreasFrancoisVermeulen_v000_01.pdf" "PhD_AndreasFrancoisVermeulen_v000_01" 1439504658
   "/etc/texmf/web2c/texmf.cnf" 1437781984 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -60,6 +60,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy9.tfm" 1136768653 520 1cc7cc05f4d7bae5c23bf7516f88fa52 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1248133631 36094 798f80770b3b148ceedd006d487db67c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1248133631 32442 c975af247b6702f7ca0c299af3616b80 ""
@@ -113,13 +114,13 @@
   "/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def" 1306616590 55368 3c8a0d99822330f2dfabc0dfb09ce897 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1437782037 127844 41dbdeb4baa9b01ea119429b5e3e8ae0 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1439249459 127844 41dbdeb4baa9b01ea119429b5e3e8ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1437782042 725443 bbc9a00699c496c65e6a30d4c1286dd8 ""
-  "PhD_AndreasFrancoisVermeulen_v000_01.aux" 1439247781 72890 c66d13b286a1b9f8496bf2a3658729c6 ""
-  "PhD_AndreasFrancoisVermeulen_v000_01.bbl" 1439247781 2774 21218fa1252c6513a8a7c249265c3983 "bibtex PhD_AndreasFrancoisVermeulen_v000_01"
-  "PhD_AndreasFrancoisVermeulen_v000_01.tex" 1439247779 55166 03b4258283e48e9ab85fe51b3dd92bd0 ""
+  "PhD_AndreasFrancoisVermeulen_v000_01.aux" 1439504658 85931 2d7d062db5092984fffe185fc66bfaba ""
+  "PhD_AndreasFrancoisVermeulen_v000_01.bbl" 1439504658 3435 a795260333cd224b87bb4278f34b6322 "bibtex PhD_AndreasFrancoisVermeulen_v000_01"
+  "PhD_AndreasFrancoisVermeulen_v000_01.tex" 1439504653 64878 fc8ad2f3f1cf87502b38e4546dacb66a ""
   "acm_proc_article-sp.cls" 1428087353 59629 49fc14f68a73f326183ff0d766bec0c2 ""
   (generated)
-  "PhD_AndreasFrancoisVermeulen_v000_01.pdf"
   "PhD_AndreasFrancoisVermeulen_v000_01.log"
   "PhD_AndreasFrancoisVermeulen_v000_01.aux"
+  "PhD_AndreasFrancoisVermeulen_v000_01.pdf"
