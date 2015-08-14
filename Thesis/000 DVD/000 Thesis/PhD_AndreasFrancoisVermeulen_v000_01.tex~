@@ -848,17 +848,34 @@ CycleTime = ProcessSetupTime + ProcessTime + ProcessRecycleTime + VerifySetupTim
 \subsubsection{PUPA002000001 - Dense Linear Algebra}
 \subsubsection{PUPA002000002 - Sparse Linear Algebra}
 \subsubsection{PUPA002000003 - Spectral Methods}
+\paragraph{Spectral methods are a class of techniques applying mathematics and scientific computing using Fast Fourier Transform}
 \subsubsection{PUPA002000004 - N-Body Methods}
+\paragraph{A n-body problem is the problem of predicting the individual motions of a group of celestial objects interacting with each other gravitationally.}
 \subsubsection{PUPA002000005 - Structured Grids}
+\paragraph{A structured Grid is n-dimensional Euclidean space by congruent cells. Example: a 3-dimensional grid is describe by format m(x,y,z).}
 \subsubsection{PUPA002000006 - Unstructured Grids}
-\subsubsection{PUPA002000007 - Monte Carlo}
+\paragraph{A unstructured grid is a grid consisting of vertices and edges that describes a system of interconnected entities.}
+\subsubsection{PUPA002000007 - Monte Carlo Simulations}
+\paragraph{A problem solving technique used to approximate the probability of outcomes by executing multiple trials, called simulations, using randomised variables.}
 \subsubsection{PUPA002000008 - Combinational Logic}
+\paragraph{A type of digital logic used by Boolean circuits, where the output is a pure function of the supplied input only.}
 \subsubsection{PUPA002000009 - Graph Traversal}
+\paragraph{Graph traversal is the problem of visiting all the nodes in a graph in a particular order.}
 \subsubsection{PUPA002000010 - Dynamic Programming}
-\subsubsection{PUPA002000011 - Back-track and Branch-and-Bound}
+\paragraph{Dynamic programming is a extremely powerful algorithmic paradigm solving a problem by identifying a collection of subproblems and solving them one by one, smallest first, using the results to small problems to solve larger ones, until the whole set of them is solved successfully.}
+\subsubsection{PUPA002000011 - Backtrack and Branch-and-Bound}
+\paragraph{Branch and bound algorithms are effective for solving various search and global optimization problems. The goal in such problems is to search a very large space to find a globally optimal solution.}
 \subsubsection{PUPA002000012 - Graphical Models}
+\paragraph{A graphical model or probabilistic graphical model (PGM) is a probabilistic model for a graph expressing the conditional dependence structure between random variables.}
 \subsubsection{PUPA002000013 - Finite State Machine}
+\paragraph{A finite-state machine (FSM) is a mathematical model of computation used to design computer programs and sequential logic circuits. It is modelled as an abstract machine that can be in one of a finite number of states.}
 \subsection{Persistent Uniform Protocol Agreement - Verify}
+\subsubsection{?????????????????????????}
+\paragraph{??????????}
+\subsubsection{?????????????????????????}
+\paragraph{??????????}
+\subsubsection{?????????????????????????}
+\paragraph{??????????}
 \subsection{Apache Hama}
 \paragraph{Apache Hama is a distributed computing framework based on Bulk Synchronous Parallel computing techniques for massive scientific computations e.g., matrix, graph and network algorithms.}
 \subsection{Apache Giraph}

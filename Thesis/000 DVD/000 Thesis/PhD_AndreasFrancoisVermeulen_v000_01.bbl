@@ -23,6 +23,17 @@
 \newblock {\em Defense Advanced Research Projects Agency Information Processing
   Techniques Office (DARPA IPTO), Tech. Rep 15\/} (2008).
 
+\bibitem{chang1997titan}
+{\sc Chang, C., Moon, B., Acharya, A., Shock, C., Sussman, A., and Saltz, J.}
+\newblock Titan: a high-performance remote-sensing database.
+\newblock In {\em Data Engineering, 1997. Proceedings. 13th International
+  Conference on\/} (1997), IEEE, pp.~375--384.
+
+\bibitem{ching2013scaling}
+{\sc Ching, A.}
+\newblock Scaling apache giraph to a trillion edges.
+\newblock {\em Facebook Engineering blog\/} (2013).
+
 \bibitem{daniel1997scheduling}
 {\sc Daniel, V., and Guide, R.}
 \newblock Scheduling with priority dispatching rules and drum-buffer-rope in a
@@ -70,6 +81,12 @@
 \newblock A taxonomy of current issues in requirements engineering.
 \newblock {\em Computer 18}, 4 (1985), 14--23.
 
+\bibitem{seo2010hama}
+{\sc Seo, S., Yoon, E.~J., Kim, J., Jin, S., Kim, J.-S., and Maeng, S.}
+\newblock Hama: An efficient matrix computation with the mapreduce framework.
+\newblock In {\em Cloud Computing Technology and Science (CloudCom), 2010 IEEE
+  Second International Conference on\/} (2010), IEEE, pp.~721--726.
+
 \bibitem{stone2010opencl}
 {\sc Stone, J.~E., Gohara, D., and Shi, G.}
 \newblock Opencl: A parallel programming standard for heterogeneous computing
@@ -87,5 +104,19 @@
 \bibitem{team2000r}
 {\sc Team, R.~C.}
 \newblock R language definition, 2000.
+
+\bibitem{wu2012kernel}
+{\sc Wu, H., Diamos, G., Cadambi, S., and Yalamanchili, S.}
+\newblock Kernel weaver: Automatically fusing database primitives for efficient
+  gpu computation.
+\newblock In {\em Proceedings of the 2012 45th Annual IEEE/ACM International
+  Symposium on Microarchitecture\/} (2012), IEEE Computer Society,
+  pp.~107--118.
+
+\bibitem{zhong2014medusa}
+{\sc Zhong, J., and He, B.}
+\newblock Medusa: Simplified graph processing on gpus.
+\newblock {\em Parallel and Distributed Systems, IEEE Transactions on 25}, 6
+  (2014), 1543--1552.
 
 \end{thebibliography}
