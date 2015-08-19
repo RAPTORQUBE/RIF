@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.8.14)  14 AUG 2015 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.8.14)  19 AUG 2015 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -284,7 +284,12 @@ ction
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+Overfull \hbox (26.0263pt too wide) in paragraph at lines 40--40
+[]\secfnt Rapid In-for-ma-tion Fac-tory Frame-work (RIFF) 
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
@@ -334,36 +339,40 @@ Overfull \hbox (3.14166pt too wide) in paragraph at lines 84--84
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
  [3]
-Overfull \hbox (1.46913pt too wide) in paragraph at lines 97--97
+Overfull \hbox (1.46913pt too wide) in paragraph at lines 98--98
 []  \subsecfnt The ex-e-cu-tion statis-tics is the fun-da-men-tal per-for-mance
 
  []
 
 
-Overfull \hbox (14.4717pt too wide) in paragraph at lines 99--99
+Overfull \hbox (14.4717pt too wide) in paragraph at lines 100--100
 []  \subsecfnt The Yoke or Poka-yoke is fun-da-men-tal pro-cess of "mistake-
  []
 
 
-Overfull \hbox (1.60141pt too wide) in paragraph at lines 99--99
+Overfull \hbox (1.60141pt too wide) in paragraph at lines 100--100
 \subsecfnt fac-tory's fun-da-men-tal mon-i-tor-ing in-ter-face be-tween the
  []
 
 
-Overfull \hbox (5.19778pt too wide) in paragraph at lines 118--118
+Overfull \hbox (5.19778pt too wide) in paragraph at lines 122--122
 []  \subsecfnt A non-functional re-quire-ment is a re-quire-ment that spec-
  []
 
 [4]
-Overfull \hbox (1.61203pt too wide) in paragraph at lines 178--178
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [5]
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (1.61203pt too wide) in paragraph at lines 243--243
 []  \subsecfnt The main-te-nance un-til-i-ties are pro-cesing struc-tures that
  []
 
-[5] [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Overfull \hbox (1.65683pt too wide) in paragraph at lines 268--268
+[7] [8] [9]
+Overfull \hbox (1.65683pt too wide) in paragraph at lines 335--335
 \subsecfnt tonomous node trans-port sup-plies the pro-cess-ing power
  []
 
@@ -371,27 +380,27 @@ Overfull \hbox (1.65683pt too wide) in paragraph at lines 268--268
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (2.77884pt too wide) in paragraph at lines 271--271
+Overfull \hbox (2.77884pt too wide) in paragraph at lines 338--338
 \subsecfnt trans-port that sup-plies the pro-cess-ing power and a mea-
  []
 
 
-Overfull \hbox (18.9059pt too wide) in paragraph at lines 282--283
+Overfull \hbox (18.9059pt too wide) in paragraph at lines 349--350
 []\T1/aer/m/n/9 Manage and en-force com-pli-ance to Sarbanes-Oxley, HIPPA,
  []
 
-[8]
-Overfull \hbox (15.83855pt too wide) in paragraph at lines 289--290
+[10]
+Overfull \hbox (15.83855pt too wide) in paragraph at lines 356--357
 []\T1/aer/m/n/9 Implement and De-ploy service-oriented ar-chi-tec-ture (SOA)
  []
 
 
-Overfull \hbox (3.38359pt too wide) in paragraph at lines 296--296
+Overfull \hbox (3.38359pt too wide) in paragraph at lines 363--363
 \subsecfnt the pro-cess data workspace, a ref-er-ence data workspace
  []
 
 
-Overfull \hbox (1.45901pt too wide) in paragraph at lines 298--298
+Overfull \hbox (1.45901pt too wide) in paragraph at lines 365--365
 \subsecfnt Tran-form data workspace, the or-gan-ise data workspace
  []
 
@@ -399,27 +408,27 @@ Overfull \hbox (1.45901pt too wide) in paragraph at lines 298--298
 Underfull \vbox (badness 3291) has occurred while \output is active []
 
 
-Overfull \hbox (6.959pt too wide) in paragraph at lines 317--317
+Overfull \hbox (6.959pt too wide) in paragraph at lines 384--384
 \subsecfnt tonomous node trans-port and the spe-sific mea-sure agree-
  []
 
-[9]
-Overfull \hbox (6.959pt too wide) in paragraph at lines 324--324
+[11]
+Overfull \hbox (6.959pt too wide) in paragraph at lines 391--391
 \subsecfnt tonomous node trans-port and the spe-sific mea-sure agree-
  []
 
 
-Overfull \hbox (8.5871pt too wide) in paragraph at lines 329--329
+Overfull \hbox (8.5871pt too wide) in paragraph at lines 396--396
 \subsecfnt ing a re-mote as-sess-ment yoke, an ap-propi-ate au-tonomous
  []
 
 
-Overfull \hbox (1.11786pt too wide) in paragraph at lines 347--347
+Overfull \hbox (1.11786pt too wide) in paragraph at lines 414--414
 []  \subsecfnt Pre-pare data for each ex-ploratory par-al-lel test to match
  []
 
-[10]
-Overfull \hbox (3.00916pt too wide) in paragraph at lines 351--351
+[12]
+Overfull \hbox (3.00916pt too wide) in paragraph at lines 418--418
 []  \subsecfnt Ex-e-cute the ex-ploratory par-al-lel test in-struc-tions in par
 -
  []
@@ -427,32 +436,22 @@ Overfull \hbox (3.00916pt too wide) in paragraph at lines 351--351
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (4.27321pt too wide) in paragraph at lines 411--412
-\T1/aer/m/n/9 men-sion ta-ble to en-able link-ing the two di-men-sions at-tribu
-tes. 
+ [13]
+[14]
+Overfull \hbox (3.2188pt too wide) in paragraph at lines 519--519
+[]  \subsecfnt The di-men-sion is the in-for-ma-tion com-po-nent of the busi-
  []
 
 
-Overfull \hbox (4.09332pt too wide) in paragraph at lines 413--414
-\T1/aer/m/n/9 The bridge di-men-sion is map-ping so-lu-tion that re-solves many
--
- []
-
-
-Overfull \hbox (15.2079pt too wide) in paragraph at lines 415--416
-\T1/aer/m/n/9 men-sional at-tributes that are rapidly chang-ing into a mini–d
-i-
+Overfull \hbox (5.7487pt too wide) in paragraph at lines 529--529
+\subsecfnt many-to-many re-la-tion-ship within the di-men-sion schema
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-Overfull \hbox (286.31332pt too wide) detected at line 429
+ [15]
+Overfull \hbox (286.31332pt too wide) detected at line 544
 \OML/cmm/m/it/9 CycleTime \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 ProcessSetupTime \OT
 1/cmr/m/n/9 + \OML/cmm/m/it/9 ProcessTime \OT1/cmr/m/n/9 + \OML/cmm/m/it/9 Proc
 essRecycleTime \OT1/cmr/m/n/9 + \OML/cmm/m/it/9 VerifySetupTime \OT1/cmr/m/n/9 
@@ -461,292 +460,295 @@ essRecycleTime \OT1/cmr/m/n/9 + \OML/cmm/m/it/9 VerifySetupTime \OT1/cmr/m/n/9
  []
 
 
-Overfull \hbox (4.25276pt too wide) in paragraph at lines 432--432
+Overfull \hbox (4.25276pt too wide) in paragraph at lines 547--547
 \subsecfnt for analysing the cur-rent state and de-sign-ing a im-proved
  []
 
 
-Overfull \hbox (1.74493pt too wide) in paragraph at lines 451--451
+Overfull \hbox (1.74493pt too wide) in paragraph at lines 566--566
 []  \subsecfnt RAP-TOR flow must be as small as pos-si-ble. Each PUPA
  []
 
 
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
- [13]
-Overfull \hbox (1.71098pt too wide) in paragraph at lines 476--476
+ [16]
+Overfull \hbox (1.71098pt too wide) in paragraph at lines 591--591
 \subsecfnt ver-ify tasks at-tached to the sched-uled PRISM con-trolled
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-Overfull \hbox (1.68063pt too wide) in paragraph at lines 501--502
+ [17]
+Overfull \hbox (1.68063pt too wide) in paragraph at lines 616--617
 []\T1/aer/m/n/9 Poor in-ven-tory con-trol (ANTs, PU-PAs and Data Lake). 
  []
 
 
-Overfull \hbox (6.56717pt too wide) in paragraph at lines 503--504
+Overfull \hbox (6.56717pt too wide) in paragraph at lines 618--619
 []\T1/aer/m/n/9 Undocumented de-sign changes (ANTs, PU-PAs and Data
  []
 
 
-Overfull \hbox (4.11838pt too wide) in paragraph at lines 510--511
+Overfull \hbox (4.11838pt too wide) in paragraph at lines 625--626
 []\T1/aer/m/n/9 Unclear cus-tomer re-quire-ments, RAP-TOR PUPA's pro-
  []
 
-[15]
-Overfull \hbox (3.20789pt too wide) in paragraph at lines 571--571
+[18]
+Overfull \hbox (3.20789pt too wide) in paragraph at lines 686--686
 \subsecfnt in or-der to com-plete a task: double-handling data, seek-
  []
 
 
-Overfull \hbox (3.20746pt too wide) in paragraph at lines 571--571
+Overfull \hbox (3.20746pt too wide) in paragraph at lines 686--686
 \subsecfnt ing per-mis-sion dur-ing pro-cess-ing, un-nec-es-sary pro-cess-
  []
 
 
-Overfull \hbox (6.94751pt too wide) in paragraph at lines 588--588
+Overfull \hbox (6.94751pt too wide) in paragraph at lines 703--703
 []  \subsecfnt Study the ac-tual re-sults (mea-sured and col-lected in "DO"
  []
 
 
-Overfull \hbox (4.06604pt too wide) in paragraph at lines 590--590
+Overfull \hbox (4.06604pt too wide) in paragraph at lines 705--705
 []\secfnt Define-Measure-Analyse-Improve-Control
  []
 
-[16]
-Overfull \hbox (13.48131pt too wide) in paragraph at lines 606--606
+[19]
+Overfull \hbox (13.48131pt too wide) in paragraph at lines 721--721
 []  \subsecfnt “A place for ev-ery-thing, and ev-ery-thing in its place.”
  []
 
 
-Overfull \hbox (4.8221pt too wide) in paragraph at lines 614--614
+Overfull \hbox (4.8221pt too wide) in paragraph at lines 729--729
 []\secfnt Rapid In-for-ma-tion Fac-tory Clus-ter (RIFC) 
  []
 
 
-Overfull \hbox (10.50154pt too wide) in paragraph at lines 629--629
+Overfull \hbox (10.50154pt too wide) in paragraph at lines 744--744
 \subsecfnt of two hun-derd thou-sand ama-zon cloud nodes (d2.8xlarge
  []
 
 
-Overfull \hbox (20.44554pt too wide) in paragraph at lines 630--630
+Overfull \hbox (20.44554pt too wide) in paragraph at lines 745--745
 []  \subsecfnt The hun-derd ama-zon graph-i-cal en-hanced nodes (g2.8xlarge
  []
 
 
 Underfull \vbox (badness 1033) has occurred while \output is active []
 
- [17]
-Overfull \hbox (2.26253pt too wide) in paragraph at lines 640--640
+ [20]
+Overfull \hbox (2.26253pt too wide) in paragraph at lines 755--755
 []  \subsecfnt A001000003 - t2.medium - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 653--653
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 768--768
 []  \subsecfnt A001000016 - c4.2xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (1.96513pt too wide) in paragraph at lines 653--653
+Overfull \hbox (1.96513pt too wide) in paragraph at lines 768--768
 \subsecfnt 8 CPUs and 15 Mem-ory (GB) with 1000 mbps Through-
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 654--654
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 769--769
 []  \subsecfnt A001000017 - c4.4xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (7.46513pt too wide) in paragraph at lines 654--654
+Overfull \hbox (7.46513pt too wide) in paragraph at lines 769--769
 \subsecfnt 16 CPUs and 30 Mem-ory (GB) with 2000 mbps Through-
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 655--655
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 770--770
 []  \subsecfnt A001000018 - c4.8xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (7.46513pt too wide) in paragraph at lines 655--655
+Overfull \hbox (7.46513pt too wide) in paragraph at lines 770--770
 \subsecfnt 36 CPUs and 60 Mem-ory (GB) with 4000 mbps Through-
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 658--658
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 773--773
 []  \subsecfnt A001000021 - c3.2xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 659--659
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 774--774
 []  \subsecfnt A001000022 - c3.4xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 660--660
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 775--775
 []  \subsecfnt A001000023 - c3.8xlarge - Ama-zon Cloud in-stance with
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-Overfull \hbox (1.74544pt too wide) in paragraph at lines 663--663
+ [21]
+Overfull \hbox (1.74544pt too wide) in paragraph at lines 778--778
 []  \subsecfnt A001000026 - r3.2xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (1.74544pt too wide) in paragraph at lines 664--664
+Overfull \hbox (1.74544pt too wide) in paragraph at lines 779--779
 []  \subsecfnt A001000027 - r3.4xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (1.74544pt too wide) in paragraph at lines 665--665
+Overfull \hbox (1.74544pt too wide) in paragraph at lines 780--780
 []  \subsecfnt A001000028 - r3.8xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.96655pt too wide) in paragraph at lines 666--666
+Overfull \hbox (2.96655pt too wide) in paragraph at lines 781--781
 []  \subsecfnt A001000029 - g2.2xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.96655pt too wide) in paragraph at lines 667--667
+Overfull \hbox (2.96655pt too wide) in paragraph at lines 782--782
 []  \subsecfnt A001000030 - g2.8xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.96655pt too wide) in paragraph at lines 673--673
+Overfull \hbox (2.96655pt too wide) in paragraph at lines 788--788
 []  \subsecfnt A001000036 - d2.2xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.96655pt too wide) in paragraph at lines 674--674
+Overfull \hbox (2.96655pt too wide) in paragraph at lines 789--789
 []  \subsecfnt A001000037 - d2.4xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.96655pt too wide) in paragraph at lines 676--676
+Overfull \hbox (2.96655pt too wide) in paragraph at lines 791--791
 []  \subsecfnt A001000038 - d2.8xlarge - Ama-zon Cloud in-stance with
  []
 
-[19]
-Overfull \hbox (2.26253pt too wide) in paragraph at lines 705--705
+[22]
+Overfull \hbox (2.26253pt too wide) in paragraph at lines 820--820
 []  \subsecfnt A001000003 - t2.medium - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 718--718
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 833--833
 []  \subsecfnt A001000016 - c4.2xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (1.96513pt too wide) in paragraph at lines 718--718
+Overfull \hbox (1.96513pt too wide) in paragraph at lines 833--833
 \subsecfnt 8 CPUs and 15 Mem-ory (GB) with 1000 mbps Through-
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 719--719
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 834--834
 []  \subsecfnt A001000017 - c4.4xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (7.46513pt too wide) in paragraph at lines 719--719
+Overfull \hbox (7.46513pt too wide) in paragraph at lines 834--834
 \subsecfnt 16 CPUs and 30 Mem-ory (GB) with 2000 mbps Through-
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 720--720
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 835--835
 []  \subsecfnt A001000018 - c4.8xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (7.46513pt too wide) in paragraph at lines 720--720
+Overfull \hbox (7.46513pt too wide) in paragraph at lines 835--835
 \subsecfnt 36 CPUs and 60 Mem-ory (GB) with 4000 mbps Through-
  []
 
-[20]
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 723--723
+[23]
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 838--838
 []  \subsecfnt A001000021 - c3.2xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 724--724
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 839--839
 []  \subsecfnt A001000022 - c3.4xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.35048pt too wide) in paragraph at lines 725--725
+Overfull \hbox (2.35048pt too wide) in paragraph at lines 840--840
 []  \subsecfnt A001000023 - c3.8xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (1.74544pt too wide) in paragraph at lines 728--728
+Overfull \hbox (1.74544pt too wide) in paragraph at lines 843--843
 []  \subsecfnt A001000026 - r3.2xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (1.74544pt too wide) in paragraph at lines 729--729
+Overfull \hbox (1.74544pt too wide) in paragraph at lines 844--844
 []  \subsecfnt A001000027 - r3.4xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (1.74544pt too wide) in paragraph at lines 730--730
+Overfull \hbox (1.74544pt too wide) in paragraph at lines 845--845
 []  \subsecfnt A001000028 - r3.8xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.96655pt too wide) in paragraph at lines 731--731
+Overfull \hbox (2.96655pt too wide) in paragraph at lines 846--846
 []  \subsecfnt A001000029 - g2.2xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.96655pt too wide) in paragraph at lines 732--732
+Overfull \hbox (2.96655pt too wide) in paragraph at lines 847--847
 []  \subsecfnt A001000030 - g2.8xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.96655pt too wide) in paragraph at lines 738--738
+Overfull \hbox (2.96655pt too wide) in paragraph at lines 853--853
 []  \subsecfnt A001000036 - d2.2xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.96655pt too wide) in paragraph at lines 739--739
+Overfull \hbox (2.96655pt too wide) in paragraph at lines 854--854
 []  \subsecfnt A001000037 - d2.4xlarge - Ama-zon Cloud in-stance with
  []
 
 
-Overfull \hbox (2.96655pt too wide) in paragraph at lines 740--740
+Overfull \hbox (2.96655pt too wide) in paragraph at lines 855--855
 []  \subsecfnt A001000038 - d2.8xlarge - Ama-zon Cloud in-stance with
  []
 
-[21]
-Overfull \hbox (5.82565pt too wide) in paragraph at lines 782--782
+[24]
+Overfull \hbox (5.82565pt too wide) in paragraph at lines 897--897
 \subsecfnt math-e-mat-ics and sci-en-tific com-put-ing us-ing Fast Fourier
  []
 
-[22]
-Overfull \hbox (6.25658pt too wide) in paragraph at lines 796--796
+[25]
+Overfull \hbox (6.25658pt too wide) in paragraph at lines 916--916
 []\subsecfnt PUPA002000011 - Back-track and Branch-and-
  []
 
 
+Overfull \hbox (11.9087pt too wide) in paragraph at lines 921--921
+[]  \subsecfnt Graph-i-cal mod-els in-clude Bayesian net-works (also known
+ []
+
+[26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-Overfull \hbox (1.43674pt too wide) in paragraph at lines 820--820
+
+Overfull \hbox (1.43674pt too wide) in paragraph at lines 941--941
 \subsecfnt com-plex graph traver-sals in real time. It sup-ports ACID
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-(./PhD_AndreasFrancoisVermeulen_v000_01.bbl [24]) [25
-
-]
+ [27]
+(./PhD_AndreasFrancoisVermeulen_v000_01.bbl) [28]
 (./PhD_AndreasFrancoisVermeulen_v000_01.aux) ) 
 Here is how much of TeX's memory you used:
  2800 strings out of 495000
@@ -768,11 +770,11 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on PhD_AndreasFrancoisVermeulen_v000_01.pdf (25 pages, 214942 by
+Output written on PhD_AndreasFrancoisVermeulen_v000_01.pdf (28 pages, 217247 by
 tes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
