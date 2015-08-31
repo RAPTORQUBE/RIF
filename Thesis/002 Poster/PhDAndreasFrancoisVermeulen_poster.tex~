@@ -13,6 +13,9 @@
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Andreas Francois Vermeulen modify for PhD at University of St Andrews and University of Dundee
+%  2015/08/31
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -71,10 +74,10 @@ linewidth=2pt % Width of the border lines around content boxes
 %	TITLE SECTION 
 %----------------------------------------------------------------------------------------
 %
-{\includegraphics[height=4em]{logo.png}} % First university/lab logo on the left
-{\bf\textsc{Unnecessarily Complicated Research Title}\vspace{0.5em}} % Poster title
-{\textsc{\{ John Smith, James Smith and Jane Smith \} \hspace{12pt} University and Department Name}} % Author names and institution
-{\includegraphics[height=4em]{logo.png}} % Second university/lab logo on the right
+{\includegraphics[height=4em]{standrews.jpg}} % First university/lab logo on the left
+{\bf\textsc{Synaptic Assimilator}\vspace{0.5em}} % Poster title
+{\textsc{Andreas Francois Vermeulen \hspace{12pt} University of St Andrews and University of Dundee}} % Author names and institution
+{\includegraphics[height=4em]{dundee.jpg}} % Second university/lab logo on the right
 
 %----------------------------------------------------------------------------------------
 %	OBJECTIVES
@@ -85,11 +88,11 @@ linewidth=2pt % Width of the border lines around content boxes
 Donec non nisl a \textbf{arcu consequat} varius. Sed suscipit cursus luctus. Nulla sit amet elit augue. Curabitur scelerisque mollis dolor, quis blandit lorem condimentum at. Pellentesque sed nibh vel \textbf{dolor} sagittis semper. 
 
 \begin{enumerate}\compresslist
-\item Feugiat vitae elit
-\item bibendum ante sed lacinia eros in
-\item Curabitur scelerisque arcu consequat varius
-\item Dapibus nulla id purus consectetur
-\item Fringilla integer 
+\item Machine Learning Engine - Synaptic Assimilator
+\item Processing Framework - Rapid Information Factory Framework
+\item Cluster - Rapid Information Factory Cluster
+\item Load Person-Object-Location-Event Data
+\item Rapid Information Factory Improvements  
 \end{enumerate}
 
 \vspace{0.3em} % When there are two boxes, some whitespace may need to be added if the one on the right has more content

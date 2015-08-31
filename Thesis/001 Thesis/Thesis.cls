@@ -49,12 +49,12 @@
 \btypeout{Declaration of Authorship}
 \addtotoc{Declaration of Authorship}
 \thispagestyle{plain}
-\null\vfil
+%\null\vfil
 %\vskip 60\p@
 \begin{center}{\huge\bf Declaration of Authorship\par}\end{center}
 %\vskip 60\p@
 {\normalsize #1}
-\vfil\vfil\null
+%\vfil\vfil\null
 %\cleardoublepage
 }
 
@@ -156,14 +156,22 @@
 \pdfstringdefDisableCommands{
    \let\\\space
 }
-\newcommand*{\supervisor}[1]{\def\supname{#1}}
+\newcommand*{\supervisora}[1]{\def\supnamea{#1}}
+\newcommand*{\supervisorb}[1]{\def\supnameb{#1}}
+\newcommand*{\supervisorlinka}[1]{\def\suplinka{#1}}
+\newcommand*{\supervisorlinkb}[1]{\def\suplinkb{#1}}
 \newcommand*{\thesistitle}[1]{\def\ttitle{#1}}
 \newcommand*{\examiner}[1]{\def\examname{#1}}
 \newcommand*{\degree}[1]{\def\degreename{#1}}
 \newcommand*{\authors}[1]{\def\authornames{#1}}
+\newcommand*{\authorslinka}[1]{\def\authorlinka{#1}}
+\newcommand*{\authorslinkb}[1]{\def\authorlinkb{#1}}
+\newcommand*{\authorslinkc}[1]{\def\authorlinkc{#1}}
 \newcommand*{\addresses}[1]{\def\addressnames{#1}}
 \newcommand*{\university}[1]{\def\univname{#1}}
+\newcommand*{\universityb}[1]{\def\univnameb{#1}}
 \newcommand*{\UNIVERSITY}[1]{\def\UNIVNAME{#1}}
+\newcommand*{\UNIVERSITYB}[1]{\def\UNIVNAMEB{#1}}
 \newcommand*{\department}[1]{\def\deptname{#1}}
 \newcommand*{\DEPARTMENT}[1]{\def\DEPTNAME{#1}}
 \newcommand*{\group}[1]{\def\groupname{#1}}
@@ -181,15 +189,21 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Thesis Title} % Your thesis title - this is used in the title and abstract
+\thesistitle{Rapid Information Factory} % Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
-\supervisor{Dr. James \textsc{Smith}} % You supervisor's name - this is used in the title page
+\supervisora{Dr Vladimir \textsc{Janjic}} % You supervisor's name - this is used in the title page
+\supervisorlinka{http://www.st-andrews.ac.uk/profile/vj32} % You supervisor's link - this is used in the title page  
+\supervisorb{Mr Andrew \textsc{Cobley}} % You supervisor's name - this is used in the title page 
+\supervisorlinkb{http://www.computing.dundee.ac.uk/about/staff/1} % You supervisor's link - this is used in the title page  
 %-------------------------------------------------   
 \examiner{} % Your examiner's name - this is not currently used anywhere in the template, cite it with \examname if you want it
 %-------------------------------------------------   
-\degree{Doctor of Philosophy} % Your degree name - this is currently used in the title page and abstract
+\degree{Doctor of Philosophy } % Your degree name - this is currently used in the title page and abstract
 %-------------------------------------------------   
-\authors{John \textsc{Smith}} % Your name - this is used in the title page and abstract
+\authors{Mr Andreas F. \textsc{Vermeulen}} % Your name - this is used in the title page and abstract
+\authorslinka{http://www.computing.dundee.ac.uk/about/staff/121}
+\authorslinkb{https://www.st-andrews.ac.uk/}
+\authorslinkc{https://uk.linkedin.com/in/andreasvermeulen}
 %-------------------------------------------------   
 \addresses{} % Your address - this is not currently used anywhere in the template, cite it with \addressnames if you want it
 %-------------------------------------------------   
@@ -197,37 +211,53 @@
 %-------------------------------------------------   
 \keywords{} % Keywords for your thesis - this is not currently used anywhere in the template, cite it with \keywordnames if you want it
 %-------------------------------------------------   
-\university{\texorpdfstring{\href{http://www.university.com} % Your university's URL
-                {University Name}} % Your university's name - this is currently used in the title page
-                {University Name}}
+\university{\texorpdfstring{\href{https://www.st-andrews.ac.uk/} % Your university's URL
+                {University of St Andrews}} % Your university's name - this is currently used in the title page
+                {University of St Andrews}}
 %-------------------------------------------------   
-\UNIVERSITY{\texorpdfstring{\href{University Web Site URL Here (include http://)} % Your university's URL
-                {UNIVERSITY NAME (IN BLOCK CAPITALS)}} % Your university's name in capitals - this is currently used in the abstract page
-                {UNIVERSITY NAME (IN BLOCK CAPITALS)}}
+\universityb{\texorpdfstring{\href{https://www.dundee.ac.uk/} % Your university's URL
+                {University of Dundee}} % Your university's name - this is currently used in the title page
+                {University of Dundee}}
+%-------------------------------------------------   
+\UNIVERSITY{\texorpdfstring{\href{https://www.st-andrews.ac.uk/} % Your university's URL
+                {UNIVERSITY OF ST ANDREWS}} % Your university's name in capitals - this is currently used in the abstract page
+                {UNIVERSITY OF ST ANDREWS}}
+%-------------------------------------------------   
+\UNIVERSITYB{\texorpdfstring{\href{https://www.dundee.ac.uk/} % Your university's URL
+                {UNIVERSITY OF DUNDEE}} % Your university's name - this is currently used in the title page
+                {UNIVERSITY OF DUNDEE}}
 %-------------------------------------------------                
-\department{\texorpdfstring{\href{Department or School Web Site URL Here (include http://)} % Your department's URL
-                {Department or School Name}} % Your department's name - used in the title page and abstract
-                {Department or School Name}}
+\department{\texorpdfstring{\href{http://www.cs.st-andrews.ac.uk/} % Your department's URL
+                {School of Computer Science}} % Your department's name - used in the title page and abstract
+                {School of Computer Science}}
 %-------------------------------------------------                
-\DEPARTMENT{\texorpdfstring{\href{Department or School Web Site URL Here (include http://)} % Your department's URL
-                {DEPARTMENT OR SCHOOL NAME (IN BLOCK CAPITALS)}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
-                {DEPARTMENT OR SCHOOL NAME (IN BLOCK CAPITALS)}}
+\DEPARTMENT{\texorpdfstring{\href{http://www.cs.st-andrews.ac.uk/} % Your department's URL
+                {SCHOOL OF COMPUTER SCIENCE}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
+                {SCHOOL OF COMPUTER SCIENCE}}
+%-------------------------------------------------  
+\department{\texorpdfstring{\href{http://www.cs.st-andrews.ac.uk/} % Your department's URL
+                {School of Computer Science}} % Your department's name - used in the title page and abstract
+                {School of Computer Science}}
 %-------------------------------------------------                
-\group{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
-                {Research Group Name}} % Your research group's name - this is currently used in the title page 
-                {Research Group Name}}
+\DEPARTMENT{\texorpdfstring{\href{http://www.cs.st-andrews.ac.uk/} % Your department's URL
+                {SCHOOL OF COMPUTER SCIENCE}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
+                {SCHOOL OF COMPUTER SCIENCE}}
+%-------------------------------------------------                    
+\group{\texorpdfstring{\href{http://www.cs.st-andrews.ac.uk/} % Your research group's URL
+                {PhD Research Group}} % Your research group's name - this is currently used in the title page 
+                {PhD Research Group}}
 %-------------------------------------------------                
-\GROUP{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
-                {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}} % Your research group's name in capitals - this is not currently used anywhere in the template, cite it with \GROUPNAME if you want it
-                {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
+\GROUP{\texorpdfstring{\href{http://www.cs.st-andrews.ac.uk/} % Your research group's URL
+                {PHD RESEARCH GROUP}} % Your research group's name in capitals - this is not currently used anywhere in the template, cite it with \GROUPNAME if you want it
+                {PHD RESEARCH GROUP}}
 %-------------------------------------------------                
-\faculty{\texorpdfstring{\href{Faculty Web Site URL Here (include http://)} % Your faculty's URL
-                {Faculty Name}} % Your faculty's name - this is currently used in the abstract page
-                {Faculty Name}}
+\faculty{\texorpdfstring{\href{http://www.cs.st-andrews.ac.uk/} % Your faculty's URL
+                {Computer Science}} % Your faculty's name - this is currently used in the abstract page
+                {Computer Science}}
 %-------------------------------------------------                
-\FACULTY{\texorpdfstring{\href{Faculty Web Site URL Here (include http://)} % Your faculty's URL
-                {FACULTY NAME (IN BLOCK CAPITALS)}} % Your faculty's name in capitals - this is not currently used anywhere in the template, cite it with \FACNAME if you want it
-                {FACULTY NAME (IN BLOCK CAPITALS)}}
+\FACULTY{\texorpdfstring{\href{http://www.cs.st-andrews.ac.uk/} % Your faculty's URL
+                {COMPUTER SCIENCE}} % Your faculty's name in capitals - this is not currently used anywhere in the template, cite it with \FACNAME if you want it
+                {COMPUTER SCIENCE}}
 %----------------------------------------------------------------------------------------    
 
 % The default title page, this is not used in this www.latextemplates.com version            

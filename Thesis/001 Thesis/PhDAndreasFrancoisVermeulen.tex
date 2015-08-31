@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Masters/Doctoral Thesis 
+% Doctoral Thesis 
 % LaTeX Template
 % Version 1.43 (17/5/14)
 %
@@ -19,6 +19,9 @@
 % Note:
 % Make sure to edit document variables in the Thesis.cls file
 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Andreas Francois Vermeulen modify for PhD at university of St Andrews and university of Dundee
+%  2015/08/31
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
@@ -61,7 +64,8 @@
 \begin{titlepage}
 \begin{center}
 
-\textsc{\LARGE \univname}\\[1.5cm] % University name
+\textsc{\LARGE \univname}\\[1.5cm] % university name
+\textsc{\LARGE \univnameb}\\[1.5cm] % university name
 \textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
 
 \HRule \\[0.4cm] % Horizontal line
@@ -71,27 +75,40 @@
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
 \emph{Author:}\\
-\href{http://www.johnsmith.com}{\authornames} % Author name - remove the \href bracket to remove the link
+\authornames % Author name
+\end{flushleft} \large
+\begin{flushleft} \large
+\href{\authorlinka}{(1)} % Author Link
+\href{\authorlinkb}{(2)} % Author Link
+\href{\authorlinkc}{(3)} % Author Link
 \end{flushleft}
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
 \begin{flushright} \large
-\emph{Supervisor:} \\
-\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\emph{Supervisor One:} \\
+\href{\suplinka}{\supnamea} % Supervisor name - remove the \href bracket to remove the link  
+\end{flushright}
+\begin{flushright} \large
+\emph{Supervisor Two:} \\
+\href{\suplinkb}{\supnameb} % Supervisor name - remove the \href bracket to remove the link  
 \end{flushright}
 \end{minipage}\\[3cm]
  
-\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
+\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % university requirement text
 \textit{in the}\\[0.4cm]
 \groupname\\\deptname\\[2cm] % Research group name and department name
  
 {\large \today}\\[4cm] % Date
-%\includegraphics{Logo} % University/department logo - uncomment to place it
- 
+\includegraphics[width=3cm]{standrews} % university/department logo - uncomment to place it 
+\includegraphics[width=3.5cm]{dundee} % university/department logo - uncomment to place it 
+\includegraphics[width=3cm]{vermeulen} % Author's logo
+
 \vfill
 \end{center}
 
 \end{titlepage}
+
+\clearpage % Start a new page
 
 %----------------------------------------------------------------------------------------
 %	DECLARATION PAGE
@@ -102,22 +119,57 @@
 
 \addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 
-I, \authornames, declare that this thesis titled, '\ttitle' and the work presented in it are my own. I confirm that:
 
-\begin{itemize} 
-\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
-\item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
-\item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
-\item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
-\item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
-\item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
-\end{itemize}
- 
+\textbf{Candidate’s declarations:}
+
+I, \authornames, hereby certify that this thesis titled, '\ttitle'  which is approximately ….. words in length, has been written by me, and that it is the record of work carried out by me, or principally by myself in collaboration with others as acknowledged, and that it has not been submitted in any previous application for a higher degree. 
+
+I was admitted as a research student in [month, year] and as a candidate for the degree of \degreename  in [month, year]; the higher study for which this is a record was carried out in the university of St Andrews between 2015 and [year]. 
+
 Signed:\\
 \rule[1em]{25em}{0.5pt} % This prints a line for the signature
- 
-Date:\\
+
+ Date:\\
 \rule[1em]{25em}{0.5pt} % This prints a line to write the date
+
+\textbf{Supervisor’s declaration:}
+
+I hereby certify that the candidate has fulfilled the conditions of the Resolution and Regulations appropriate for the degree of \degreename  in the university of St Andrews and that the candidate is qualified to submit this thesis in application for that degree. 
+
+
+Signed:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+
+ Date:\\
+\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+\clearpage % Start a new page
+\textbf{Permission for publication:}
+
+In submitting this thesis to the university of St Andrews I understand that I am giving permission for it to be made available for use in accordance with the regulations of the university Library for the time being in force, subject to any copyright vested in the work not being affected thereby.
+ 
+I also understand that the title and the abstract will be published, and that a copy of the work may be made and supplied to any bona fide library or research worker, that my thesis will be electronically accessible for personal or research use unless exempt by award of an embargo as requested below, and that the library has the right to migrate my thesis into new electronic forms as required to ensure continued access to the thesis. 
+I have obtained any third-party copyright permissions that may be required in order to allow such access and migration, or have requested the appropriate embargo below. 
+
+The following is an agreed request by candidate and supervisor regarding the publication of this thesis:
+
+PRINTED COPY
+No embargo on print copy
+
+ELECTRONIC COPY
+No embargo on electronic copy
+
+Signature of candidate:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+
+ Date:\\
+\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+
+Signature of supervisor:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+
+ Date:\\
+\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+
 }
 
 \clearpage % Start a new page
@@ -252,13 +304,51 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
-\input{Chapters/Chapter1}
-%\input{Chapters/Chapter2} 
-%\input{Chapters/Chapter3}
-%\input{Chapters/Chapter4} 
-%\input{Chapters/Chapter5} 
-%\input{Chapters/Chapter6} 
-%\input{Chapters/Chapter7} 
+\input{Chapters/Chapter01}
+\input{Chapters/Chapter02} 
+\input{Chapters/Chapter03}
+\input{Chapters/Chapter04} 
+\input{Chapters/Chapter05} 
+\input{Chapters/Chapter06} 
+\input{Chapters/Chapter07}  
+\input{Chapters/Chapter08} 
+\input{Chapters/Chapter09} 
+\input{Chapters/Chapter10} 
+\input{Chapters/Chapter11} 
+\input{Chapters/Chapter12} 
+\input{Chapters/Chapter13} 
+\input{Chapters/Chapter14} 
+\input{Chapters/Chapter15} 
+\input{Chapters/Chapter16} 
+\input{Chapters/Chapter17} 
+\input{Chapters/Chapter18} 
+\input{Chapters/Chapter19} 
+\input{Chapters/Chapter20} 
+\input{Chapters/Chapter21} 
+\input{Chapters/Chapter22} 
+\input{Chapters/Chapter23} 
+\input{Chapters/Chapter24} 
+\input{Chapters/Chapter25}
+\input{Chapters/Chapter26}
+\input{Chapters/Chapter27}
+\input{Chapters/Chapter28}
+\input{Chapters/Chapter29}
+\input{Chapters/Chapter30}
+\input{Chapters/Chapter31}
+\input{Chapters/Chapter32}
+\input{Chapters/Chapter33}
+\input{Chapters/Chapter34}
+\input{Chapters/Chapter35}
+\input{Chapters/Chapter36}
+\input{Chapters/Chapter37}
+\input{Chapters/Chapter38}
+\input{Chapters/Chapter39}
+\input{Chapters/Chapter40}
+\input{Chapters/Chapter41}
+\input{Chapters/Chapter42}
+\input{Chapters/Chapter43}
+\input{Chapters/Chapter44}
+\input{Chapters/Chapter45}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
