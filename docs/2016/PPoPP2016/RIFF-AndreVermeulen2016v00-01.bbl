@@ -1,0 +1,40 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aldinucci et~al.(2009)Aldinucci, Torquati, and
+  Meneghin]{aldinucci2009fastflow}
+M.~Aldinucci, M.~Torquati, and M.~Meneghin.
+\newblock Fastflow: Efficient parallel streaming applications on multi-core.
+\newblock \emph{arXiv preprint arXiv:0909.1187}, 2009.
+
+\bibitem[Black and Hunter(2003)]{black2003lean}
+J.~T. Black and S.~L. Hunter.
+\newblock \emph{Lean manufacturing systems and cell design}.
+\newblock Society of Manufacturing Engineers, 2003.
+
+\bibitem[Cheng and Podolsky(1996)]{cheng1996just}
+T.~Cheng and S.~Podolsky.
+\newblock \emph{Just-in-time manufacturing: an introduction}.
+\newblock Springer Science \& Business Media, 1996.
+
+\bibitem[George et~al.(2005)George, Rowlands, Price, and Maxey]{george2005lean}
+M.~George, D.~Rowlands, M.~Price, and J.~Maxey.
+\newblock The lean six sigma pocket toolbook.
+\newblock 2005.
+
+\bibitem[Hintjens(2011)]{hintjens2011omq}
+P.~Hintjens.
+\newblock {\O}mq-the guide.
+\newblock \emph{Online: http://zguide. zeromq. org/page: all, Accessed on}, 23,
+  2011.
+
+\bibitem[Sterling(2002)]{sterling2002beowulf}
+T.~L. Sterling.
+\newblock \emph{Beowulf cluster computing with Linux}.
+\newblock MIT press, 2002.
+
+\end{thebibliography}

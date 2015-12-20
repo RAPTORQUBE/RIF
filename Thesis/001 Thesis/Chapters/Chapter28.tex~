@@ -1,0 +1,45 @@
+% Chapter Template
+
+\chapter{Rapid Information Factory Framework (RIFF) - Audit, Balance and Control (ABC) Layer - Work Cells} % Main chapter title
+
+\label{Chapter28} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapter 28. \emph{RIFF - ABC - WC}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Main Section 1}
+
+The work cells \cite{feld2000lean} is the fundamental building block of the processing system.
+
+The work cell is executing as an actor model (a mathematical model of concurrent computation) that use "actors" as the universal primitives of concurrent computation: in response to a message it receives, an actor can make local decisions, create more actors, send more messages, and determine how to respond to message received.
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Work Cells}
+\paragraph{The remote work cells is the fundamental processing container of the rapid information factory.}
+\subsubsection{Monitor Work Cell}
+\paragraph{The monitor work cell consists of a persistent recursive information schema manipulator plus a remote assessment yoke for each processing work cell the spesific BSP flow requires in the rapid information factory}
+\subsubsection{Processing Work Cell}
+\paragraph{The processing work cell is a combination of a remote assessment yoke, an input persistent uniform protocol agreement, an autonomous node transport and an output persistent uniform protocol agreement. The remote assessment yoke communicates to the remote assessment yoke attached to the monitor work cell. The input persistent uniform protocol agreement holds the instructions to enable the work cell to import the data into the work cell. The output persistent uniform protocol agreement holds the instructions to enable the work cell to export the data from the work cell.The autonomous node transport supplies the processing power to execute the PUPA and the yoke instructions.}
+\subsubsection{Measure Work Cell}
+\paragraph{The measure work cell consists of an autonomous node transport that supplies the processing power and a measure agreement precision that supplies the tests to determine if the processing was successful.}
+
+%-----------------------------------
+%	SUBSECTION 2
+%-----------------------------------
+
+\subsection{Subsection 2}
+
+???
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+
+\section{Main Section 2}
+
+???

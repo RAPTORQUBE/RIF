@@ -1,0 +1,70 @@
+\documentclass{sta-article}
+
+\usepackage{tabularx}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\newcommand{\tick}{\ensuremath{\checkmark}}
+%% ---------------------------------------------------------------- [ Metadata ]
+\title{Genealogical Classification using Crowdsourcing}
+\author{Graham Kirby}
+
+\department{School of Computer Science}
+\address{North Haugh, St Andrews, Fife KY16 9SX, Scotland}
+\tel{+44 (0)1334 463269}
+\fax{+44 (0)1334 463278}
+
+\date{\printdate{2013-10-30}}
+\logo{UoStA-long-600-print.pdf}
+
+\begin{document}
+\maketitle
+\chapter{Suitability}
+
+\begin{center}
+\begin{tabularx}{0.75\textwidth}{cccXc}
+\toprule
+      & \bfseries Module & & \bfseries Description & \bfseries Credits \\
+  \midrule  
+      & CS4099 &     & SH Minor                   & 15 \\  
+      & CS4099 &     & SH Major                   & 30 \\  
+      & CS5199 &     & MSci.\                     & 60 \\ 
+      & CS5899 &     & DESEM                      & 45 \\ 
+      & CS5099 & ACS & CS or C \& IT MSc.\ Group  & 60 \\ 
+      &        & NDS &&\\ 
+      &        & AI  &&\\ 
+      &        & SE  &&\\ 
+      &        & HCI &&\\ 
+       
+      & CS5098 & ACS & CS or C \& IT MSc.\ Group  & 60 \\ 
+      &        & NDS &&\\ 
+      &        & AI  &&\\ 
+      &        & SE  &&\\ 
+      &        & HCI &&\\ 
+      & IS5188 & & M \& IT or C \& IT MSc.\ Group & 60 \\ 
+\tick & IS5189 & & M \& IT or C \& IT MSc.\ Indiv & 60 \\ 
+\tick & IS5199 & & IT MSc.\ Group   & 60 \\ 
+      & IS5199 & & IT MSc.\ Indiv.\ & 60 \\ 
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\chapter{Description}
+The Digitizing Scotland project, in collaboration with colleagues in Geography, is processing all 29 million public birth, death and marriage records from 1855 to the present day, and linking them to create a national family tree.
+Part of this involves coding certain fields within the records to standard classifications, for example ICD10 for cause of death, and HISCO for occupation.
+There are also other looser classifications that are of interest, for example identifying names that may be different forms of the same name, e.g.\ ``Jim'' and ``James''; ``William'', ``Bill'', ``Billy'', ``Will''.
+
+Some success has been achieved with machine learning techniques, which require a significant amount of training data.
+Currently this is obtained using historians and other experts: an expensive process.
+
+The objective of this project is to design and trial methods for gathering training data through crowdsourcing, and to evaluate their success.
+Obvious problems to be addressed include incentivising participation, and quality control.
+
+\chapter{Artifact(s)}
+
+The main artefacts are a design, implementation and evaluation.
+
+\chapter{Background material}
+
+Online information on crowdsourcing
+
+\end{document}
