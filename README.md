@@ -6,3 +6,4 @@ RIF is a framework and a high Performance Cluster under research, design and dev
 More information to be provided as project develops.
 
 Andre Vermeulen
+University of Dundee
