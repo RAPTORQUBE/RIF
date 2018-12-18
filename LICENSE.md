@@ -1,1 +1,2 @@
-The concepts, development and IP on this site belongs to Andre Vermeulen solely.
+# License
+The concepts, development and IP on this site belongs to Andreas Francois Vermeulen solely.
