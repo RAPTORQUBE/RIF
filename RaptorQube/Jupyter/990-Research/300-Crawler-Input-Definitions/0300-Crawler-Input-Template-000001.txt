@@ -1,0 +1,3 @@
+{'SetInputDir': '../../../../100-DL/100-Raw-Zone/0100-External/100-Golden-Source/000005-Data-Source-F/','SetInputFile': 'First-Name-Boy-000001.csv','SetSep':','}
+{'setInputDir': '../../../../100-DL/100-Raw-Zone/0100-External/100-Golden-Source/000005-Data-Source-F/','SetInputFile': 'First-Name-Boy-000001.csv','SetSep':'¦'}
+{'SetInputDir': '../../../../100-DL/100-Raw-Zone/0100-External/100-Golden-Source/000005-Data-Source-F/','setInputFile': 'First-Name-Boy-000001.csv','SetSep':'\\t'}
