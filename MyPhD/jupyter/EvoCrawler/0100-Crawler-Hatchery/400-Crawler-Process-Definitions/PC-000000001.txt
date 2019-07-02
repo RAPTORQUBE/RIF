@@ -1,0 +1,17 @@
+################################################################################
+Andreas Francois Vermeulen
+################################################################################
+Crawler Process: PC-000000001.txt
+################################################################################
+def trimData(sValueIn):
+	sValueOut = str(sValueIn).strip()
+	return sValueOut
+
+def ProcessData(df):
+	import pandas as pd
+	setinputcolumn='AndreInput'
+	setoutputcolumn='AndreOutput'	
+	df2=df.copy(deep=True)	
+	df2[setoutputcolumn]=df2.apply(lambda row: trimData(row[setinputcolumn]), axis=1)
+	return df2	
+################################################################################

@@ -1,0 +1,33 @@
+################################################################################
+Andreas Francois Vermeulen
+################################################################################
+Crawler Output: CO-000000001.txt
+################################################################################
+def OutputData(df):
+	import pandas as pd
+	import os
+
+	dirname='../900-Crawler-Data-Pond/000-Workspace-Zone/WZ-000000001'
+	filename='AndreOutputData.csv'
+	setsep=','
+
+	if not os.path.exists(dirname):
+		print('Creating new directory')
+		print(dirname)
+		os.makedirs(dirname)
+
+	fullfilename=os.path.abspath(os.path.join(dirname, filename))
+
+	df.to_csv(
+		fullfilename,
+		header=0,
+		sep=setsep,
+		encoding='latin1',
+		quotechar='"',
+		verbose=False,
+		low_memory=True,
+		index=False
+	)
+
+	return True
+################################################################################

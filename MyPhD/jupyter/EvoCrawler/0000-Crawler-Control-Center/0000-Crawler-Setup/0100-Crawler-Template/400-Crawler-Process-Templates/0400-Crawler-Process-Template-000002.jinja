@@ -1,0 +1,11 @@
+def capitalizeData(sValueIn):
+	sValueOut = str(sValueIn).capitalize()
+	return sValueOut
+
+def ProcessData(df):
+	import pandas as pd
+	setinputcolumn='{{SetInputColumnName}}'
+	setoutputcolumn='{{SetOutputColumnName}}'	
+	df2=df.copy(deep=True)	
+	df2[setoutputcolumn]=df2.apply(lambda row: capitalizeData(row[setinputcolumn]), axis=1)
+	return df2	

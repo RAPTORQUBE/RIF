@@ -1,0 +1,26 @@
+################################################################################
+Andreas Francois Vermeulen
+################################################################################
+Crawler Input: CI-000000001.txt
+################################################################################
+def InputData():
+	import pandas as pd
+	import os
+
+	dirname='../900-Crawler-Data-Pond/100-Raw-Zone'
+	filename='Firstname-Data.csv'
+	setsep=','
+
+	fullfilename=os.path.abspath(os.path.join(dirname, filename))
+    df=pd.read_csv(
+        fullfilename,
+        header=0,
+        sep=setsep,
+        encoding='latin1',
+        skip_blank_lines=True,
+        quotechar='"',
+        verbose=False,
+        low_memory=True
+    )
+    return df
+################################################################################
